@@ -1,0 +1,1522 @@
+@import url(/css/fonts/icomoon.css);
+body,div,p,table,td,tr{font-size:13px}
+body,table,td,tr{font-family:Arial,Helvetica,sans-serif}
+h3,h4,h6{color:#292929}
+#AD_Top,#bannerAd_fmt{background:url(http://images.emedicinehealth.com/images/ads/1atopbannerside.gif) no-repeat}
+#slideshow_promo .opacity1,#slideshow_promo .opacity10,#slideshow_promo .opacity2,#slideshow_promo .opacity3,#slideshow_promo .opacity4,#slideshow_promo .opacity5,#slideshow_promo .opacity7,#slideshow_promo .opacity8,#slideshow_promo .opacity9,.SearchSite_box{visibility:visible!important}
+#AZ_list_container ul li,.results ul li{list-style-position:inherit;text-indent:12px}
+body{margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/body_bg_3.gif) left top repeat-x #fff;position:relative;overflow-x:hidden}
+h1,h2{font-size:140%;color:#4f667e;margin:5px 0;padding:1px 0;font-weight:700}
+a:link,a:visited{color:#3a46dc;text-decoration:none}
+a:active,a:hover{color:#1f29ad;text-decoration:underline}
+#slideshow_resources p a:hover,.backtoTop a:hover,.backtop a:hover{text-decoration:none}
+a img{border:none}
+h2{clear:left}
+h3,h4,h5,h6{font-size:110%}
+h3,h4{font-weight:700;margin-top:10px}
+h5{color:#69171a}
+h6{margin:10px 0 20px}
+.clear{clear:both}
+#tooltip{color:#fff;background:#1d1d1d;border:1px solid #000;padding:7px 10px;position:absolute;z-index:9999;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;max-width:180px;font-size:12px;line-height:16px}
+ul.navButtons li a i.med_dic,ul.navButtons li a.nav-medDic_fmt i{border-right:none}
+.center{text-align:center}
+blockquote{margin:0;padding:5px 5px 10px 29px;font-style:italic}
+.Red{color:#c00}
+.credits{font-size:11px!important;line-height:12px;padding:0 5px}
+.backtoTop,.backtop{font-size:11px!important;color:#f60;text-align:right;text-transform:lowercase!important;padding:3px 0;font-weight:700;clear:both}
+.articleTitle{font-size:16px;color:#4f667e;font-weight:700;margin:0;padding:0}
+h3.firstAidH3 a,h3.firstAidH3 a:visited{font-size:14px!important;color:#07648f;padding-bottom:2px;text-transform:capitalize}
+.resource{font-size:11px}
+.picSlidePara{padding:0 0 0 8px;font-size:12px;margin:0}
+#AD_Top,#mainSite,#wrapper{margin:0 auto}
+#mastHead #AD_Top_rdr{font-size:12px;margin:0 0 0 2px;padding:10px 0;background:#fff;width:1000px;z-index:1000001;top:0;margin:0;}
+#AD_Top{clear:both;width:730px;height:90px;padding:0 0 0 10px}
+#bannerAd_rdr{text-align:center;margin-bottom:10px}
+#bannerAd_fmt{padding:0 10px;display:inline-block}
+#wrapper{width:1000px;padding:0 100px;background-color:#fff}
+#date,.time{text-align:right;font-size:10px;margin:0;padding:0}
+#mastHead{margin:0 auto;padding:0;width:1000px}
+#emedLogo{width:230px;height:52px;clear:both;float:left;margin:2px 60px 2px 6px;padding:0}
+ul.navButtons{margin:10px 0 0 2px;padding:0;height:28px;float:left}
+ul.navButtons li{list-style:none;display:block;float:left}
+ul.navButtons li.rightCorner{height:28px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/mainNav-sprite.png) right top no-repeat}
+ul.navButtons li.rightCorner i{display:block;height:25px;width:1px;background-color:#799ec2;margin:2px 0 0}
+ul.navButtons li a{display:block;float:left;height:28px;color:#121e23;font-size:13px;text-align:center;text-decoration:none!important;background-color:#a0cbf5;cursor:pointer;outline:0;margin:0 0 0 1px}
+ul.navButtons li a.on{background-image:none}
+ul.navButtons li.rightCorner{width:16px}
+ul.navButtons li a:hover{background:#f9f5ea}
+ul.navButtons li a:visited i{color:#121e23}
+ul.navButtons li a:hover i{height:26px;color:#121e23}
+ul.navButtons li a i{padding:0;width:140px;display:block;font-style:normal;height:25px;line-height:23px;margin:2px 1px 0 0}
+ul.navButtons li a.nav-home_fmt i{border-left:none}
+.megamenu{position:absolute;display:none;left:0;top:0;background:#fff;padding:0;font-size:12px;z-index:100;border-width:0 2px 2px 1px;border-color:#f9f5ea #a29b86 #a29b86;border-style:solid}
+.megamenu .column{float:left;border:4px solid #f9f5ea}
+.megamenu .colContent{padding:12px;border:1px solid #c5c0b4;border-color:#d8d3cb #c5c0b4 #c5c0b4 #d8d3cb}
+.megamenu .colLinks{float:left;padding:0 20px 0 0}
+.megamenu i.separator{border-right:1px #bbcbd9 dotted;width:1px;display:block;float:left;margin:0 15px 0 0}
+.megamenu i.separator.pic{height:198px}
+.megamenu i.separator.image{height:293px}
+.megamenu i.separator.tool{height:198px}
+.megamenu .column ul{margin:0 0 10px;padding:0;list-style-type:none}
+.megamenu .column ul li{padding:0}
+.megamenu .column ol{margin:0 0 0 27px;padding:0;color:#3e3e3e;font-size:10px}
+.megamenu .column ol li{padding:0;list-style:decimal}
+.megamenu .column h3{margin:0 0 10px;font-size:12px}
+.megamenu .column h3.list{margin:0 0 5px}
+.megamenu .column h3 a{padding:0 0 0 10px;color:#233b74;text-decoration:underline;font-size:12px;outline:0}
+.megamenu .column ol li a,.megamenu .column ul li a{font-size:11px;display:block;color:#3e3e3e;line-height:14px}
+.megamenu .column h3 a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/mainNav-sprite.png) left -178px no-repeat}
+.megamenu .column ul li a{text-decoration:none;padding:4px 0 4px 10px}
+.megamenu .column ul li a:hover{text-decoration:underline;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/mainNav-sprite.png) left -175px no-repeat}
+.megamenu .column ol li a{text-decoration:none;padding:4px 0}
+.megamenu .column ol li a:hover{text-decoration:underline}
+.megamenu .column ul li.topFive{padding:10px 0 0 10px;font-size:10px;font-weight:700;color:#3e3e3e}
+.megamenu .column ul li.topFive ol{margin:5px 0 0 1px;padding:0}
+.megamenu .column ul li.topFive ol li{list-style:decimal inside;padding:2px 0;color:#3e3e3e;font-size:11px;font-weight:400}
+.megamenu .column ul li.topFive ol li a{display:inline;text-decoration:none;padding:0;margin:0}
+.megamenu .column ul li.topFive ol li a:hover{text-decoration:underline;background-image:none}
+.megamenu .featured{float:left;width:150px;padding:0 10px 0 0}
+.megamenu .featured h3{color:#4f667e;margin:0;padding:0 0 0 11px;font-size:12px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/mainNav-sprite.png) left -222px no-repeat}
+.megamenu .featured a{margin:0 0 0 16px;padding:0;display:block;text-decoration:none}
+.megamenu .featured a:hover{text-decoration:none}
+.megamenu .featured a p.title:hover,.megamenu .featured a p.view:hover{text-decoration:underline}
+.megamenu .featured a.featuredThumb{border:1px solid #ccc;display:block;width:121px;height:83px;margin:5px 0 12px 11px}
+.megamenu .featured a img.featuredImg{border:1px solid #ccc;padding:3px;margin:3px 0 0 3px;background-color:#fff}
+.megamenu .featured a:hover img,.megamenu .featured a:hover.featuredThumb{border:1px solid #4f667e}
+.megamenu .featured.image a.featuredThumb{border:none;display:block;width:118px;height:80px;margin:5px 0 12px 11px}
+.megamenu .featured.image a img.featuredImg{border:1px solid #ccc;padding:3px;margin:0;background-color:#fff;width:118px;height:80px}
+.megamenu .featured.image a:hover.featuredThumb{border:none}
+.megamenu .featured.image a:hover img{border:1px solid #4f667e}
+.megamenu .featured a p.title{font-size:11px;font-weight:700;color:#233b74;line-height:14px;margin:0 0 5px}
+.megamenu .featured a p.desc{font-size:11px;color:#3e3e3e;line-height:14px;margin:5px 0}
+.megamenu .featured a p.view{text-align:right;margin:10px 0 0;padding:0;font-size:10px}
+.megamenu .featured a p.view span{color:#ff9800;font-size:13px}
+.SearchSite_box,.highlightActiveField,.highlightInactiveField{height:26px;line-height:26px;font-size:18px;color:#333;width:340px;background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/search_box_bg_active_2.gif);background-repeat:repeat-x}
+#SearchSite{float:left;margin:15px 0 0;padding:0}
+.SearchSite_box{border:1px solid #617e9b}
+.highlightActiveField{border:1px solid #bbdafd}
+.highlightInactiveField{border:1px solid #617e9b}
+.search_btn{border:none;padding-left:4px}
+.smallr{text-align:right;font-size:10px;margin:11px 15px 0 0;padding:0;float:right;line-height:1.1;}
+.smallr a,.smallr a:visited{color:#1f29ad;text-decoration:none}
+.smallr a:hover{color:#1f29ad;text-decoration:underline}
+.social_masthead{float:right;margin:3px 0 0}
+.social_links ul{list-style:none;margin:0;padding:0}
+.social_links ul li{float:left;margin:0;padding:0}
+.social_links ul li.title{font-size:10px;margin:0 3px 0 0}
+.social_links ul li.fb a,.social_links ul li.tw a{line-height:20px;color:#fff;font-family:'lucida grande',tahoma,verdana,arial,sans-serif;font-size:11px;text-decoration:none;font-weight:700}
+.social_links ul li a{display:block}
+.social_links ul li.fb a{background:#527cad;border-color:#5b74a8 #29447e #29447e #1a356e;border-width:1px;border-style:solid;padding:0 5px 0 0;vertical-align:middle}
+.social_links ul li.fb a i{background:url(http://images.emedicinehealth.com/images/socialmedia/social-media-buttons-1.2.png) -24px -20px no-repeat;width:21px;margin:0 3px 0 0;height:20px;line-height:20px;float:left}
+.social_links ul li.tw a{background:url(http://images.emedicinehealth.com/images/socialmedia/tw-header-bg.gif) repeat-x;margin-left:7px;border:1px solid #2cafdb;padding:0 3px 0 0}
+.social_links ul li.tw a i{background:url(http://images.medicinenet.com/images/socialmedia/social-media-buttons-1.2.png) -24px 0 no-repeat;height:20px;width:20px;float:left;margin-right:2px}
+#leftRail,#leftRailTop,#loadSecond,.LeftColTD{width:177px}
+#breadCrumbs{margin:0 0 0 10px;padding:0;height:12px}
+#today{float:left;padding:0 5px;font-size:10px;margin:0;width:100%}
+#today a,#today a:visited{color:#1f29ad;text-decoration:none}
+#today a:hover{color:#1f29ad;text-decoration:underline}
+#content{margin:0 auto;width:1000px}
+#sliderContent{margin:0;padding:0 0 0 10px}
+#contentTopNoNav{margin:0;padding:0;width:1000px;height:15px}
+#mainContent{display:inline-block;margin:0;padding:0;width:1000px}
+#split #mainContent{margin:0}
+#contentBottom{margin:0;padding:0;width:1000px;height:23px}
+#loadFirst{float:right;position:relative}
+#loadSecond{float:left}
+#leftRailTop{margin:0 0 0 9px;padding:0;height:5px}
+#leftRail{margin:0 0 20px 9px;padding:0;float:left}
+#leftRail h1,#leftRail h2{color:#4f667e;font-size:14px;font-weight:700;margin:0 0 3px;padding:2px 0 3px 5px;font-family:"Century Gothic",Arial,Helvetica,sans-serif}
+#TopTen{border:none!important;float:left;margin:0 0 10px 10px;padding:0;text-align:left;width:167px}
+#TopTen .shade{clear:both;overflow:hidden;width:100%;margin:0 0 0 -5px}
+#TopTen ul{clear:both;margin:0;padding:0}
+#TopTen li{clear:both;font-family:Arial,Helvetica,"sans-serif!important";font-size:11px!important;margin:0;padding:0;height:auto;list-style:none}
+.Featured_Module_rdr,.Related_Module_rdr{font-family:Arial,Helvetica,sans-serif;float:left;clear:both}
+#TopTen li .Ten_Number{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/circle.gif) center center no-repeat;color:#fff!important;float:left;font-weight:700;height:18px;margin:0;padding:3px 2px 1px;text-align:center;width:18px;font-size:10px!important;border-bottom:none!important}
+* html #TopTen li .Ten_Number{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/circle.gif) 0 2px no-repeat}
+#TopTen li .Ten_Item{background:0 0;border-bottom:none;float:left;height:auto;margin:0;padding:0;text-align:left;width:141px!important}
+* html #TopTen li .Ten_Item{height:auto}
+#TopTen li .Ten_Item a,#TopTen li .Ten_Item a:visited{font-weight:400;float:left;height:auto;margin:0;padding:3px 0 1px 2px;text-align:left;width:151px!important;text-decoration:none;color:#1f29ad;font-size:12px}
+#TopTen li .Ten_Item a:hover{color:#1f29ad;text-decoration:underline}
+#TopTen li .Ten_Number#LastItem{background:url(http://images.emedicinehealth.com/images/emedicinehealth/icon_star.gif) center center no-repeat #fff;height:18px}
+#TopTen li .Ten_Item#LastItem{height:18px;font-size:90%!important}
+#TopTen li .Ten_Number#EducSS{background:url(http://www.emedicinehealth.com/images/emedicinehealth/gfx_film_4.gif) center 6px no-repeat;height:18px}
+#TopTen li .Ten_Number#EducIG{background:url(http://images.emedicinehealth.com/images/emedicinehealth/gfx_camera.gif) center center no-repeat;height:18px}
+#TopTen li .Ten_Number#HealthNews{background:url(http://images.emedicinehealth.com/images/emedicinehealth/gfx_health.gif) center center no-repeat;height:18px}
+#TopTen li .Ten_Number#FirstAidGuide{background:url(http://images.emedicinehealth.com/images/emedicinehealth/gfx_star.gif) center center no-repeat;height:18px}
+#TopTen li .Ten_Number#RSS{background:url(http://images.emedicinehealth.com/images/emedicinehealth/gfx_rss.gif) center center no-repeat;height:18px}
+#TopTen li .Ten_Number#IQ{background:url(http://images.emedicinehealth.com/images/emedicinehealth/iq_icon.gif) center center no-repeat;height:18px}
+.Related_Module_fmt{float:left;padding:0;margin:0 0 10px 10px;text-align:left;width:160px}
+.Related_Module_fmt a:link,.Related_Module_fmt a:visited{color:#1f29ad;text-decoration:none}
+.Related_Module_fmt a:hover{color:#1f29ad;text-decoration:underline}
+* html .Related_Module_fmt{width:160px}
+.Related_Module_hdr{clear:both;margin:0;padding:0}
+.Related_Module_rdr{margin:0 0 5px}
+.Related_Module_rdr ul{margin:0;padding:0;clear:both;float:left}
+.Related_Module_rdr li{list-style:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_blue.gif);margin:0 0 0 16px;padding:0}
+.Related_Module_rdr li a,.Related_Module_rdr li a:visited{text-decoration:none;padding:3px 0;width:138px;display:block;border-bottom:1px dashed #ddd}
+* html .Related_Module_rdr li a,.Related_Module_rdr li a:visited{width:138px}
+.Related_Module_rdr li a:hover{text-decoration:underline}
+.Featured_Module_fmt{clear:both;float:left;padding:0;margin:0 0 10px 10px;text-align:left;width:160px}
+.Featured_Module_fmt a:link,.Featured_Module_fmt a:visited{color:#1f29ad;text-decoration:none}
+.Featured_Module_fmt a:hover{color:#1f29ad;text-decoration:underline}
+* html .Featured_Module_fmt{width:160px}
+.Featured_Module_hdr{clear:both;margin:0;padding:0}
+.Featured_Module_rdr{margin:0 0 5px}
+#HealthNewsGfx h1,.RR_Promo_hdr{font-family:"Century Gothic",Arial,Helvetica,sans-serif;text-transform:none}
+.Featured_Module_rdr ul{margin:0;padding:0;clear:both;float:left}
+.Featured_Module_rdr li{list-style-type:none;margin:0 0 0 5px;padding:0;font-size:11px;font-weight:700}
+.Featured_Module_rdr li a,.Featured_Module_rdr li a:visited{text-decoration:none;padding:2px 0;width:138px;display:block;border-bottom:1px dashed #ddd}
+* html .Featured_Module_rdr li a,.Featured_Module_rdr li a:visited{width:138px}
+.Featured_Module_rdr li a:hover{text-decoration:underline}
+#ExploreCenters{margin:0 20px 10px 10px;width:220px;float:right;text-align:left}
+#ExploreCenters div.Scroller{background:#fff;width:220px;height:120px;overflow:auto;overflow-y:auto;overflow-x:hidden;border:1px solid #babdbf;text-align:left}
+#ExploreCenters div.Scroller li{border:none;padding:0}
+#ExploreCenters div.Scroller li a{font-weight:400;text-decoration:none;display:block;padding:2px 0 2px 3px;margin:0;color:#1f29ad;border-bottom:1px dashed #ddd}
+#HealthNews li,.RR_Promo_rdr li{border-bottom:1px dashed #ccc;list-style:none}
+* html #ExploreCenters div.Scroller li a{width:98%}
+#ExploreCenters div.Scroller li a:hover{color:#1f29ad;text-decoration:underline}
+#ExploreCenters div.Scroller ul{padding:0;margin:0;font-size:12px!important;list-style:none}
+#slideshowSlider{margin:0 0 7px 10px}
+#MedTerms{display:block;width:167px;padding:0;margin:10px 0 20px 10px}
+#MedTerms input{font-size:12px!important}
+#MedTerms form{padding:0;margin:0}
+#eMedHealth{clear:both;float:left;width:180px;padding:0 0 5px;margin:0 0 15px}
+.FormLink{font-size:11px!important;padding:2px 0;}
+.leftAd_bottom_fmt,.leftAd_top_fmt,.rightAd_bottom_fmt,.rightAd_top_fmt{height:10px;font-size:1%}
+.FormLink span{text-align:right}
+.searchText{width:150px;margin-bottom:5px}
+#leftAd_rdr{text-align:center;margin:5px 8px;padding:2px 0 0}
+.leftAd_top_fmt{width:162px;background:url(http://images.emedicinehealth.com/images/ads/leftad_toptransparent.gif) top center no-repeat}
+.leftAd_BG_fmt{width:162px;text-align:center}
+.leftAd_bottom_fmt{width:162px;background:url(http://images.emedicinehealth.com/images/ads/leftad_bottomtransparent.gif) bottom center no-repeat}
+.RightColTD{width:340px}
+#RightCol{padding:0 5px 0 0;width:315px;float:right}
+.Rt_Promo_fmt{float:left;width:300px;margin:10px 0 10px 2px}
+#HealthNewsGfx,.rightAd_rdr{margin:10px 0 5px;float:left}
+.rightAd_rdr{width:308px;clear:both}
+.rightAd_top_fmt{width:300px;background:url(http://images.emedicinehealth.com/images/ads/rightad_toptransparent.gif) top center no-repeat;clear:both}
+.rightAd_BG_fmt{text-align:center;width:301px;background:#fff;clear:both;padding:0 0 0 2px}
+.rightAd_bottom_fmt{width:300px;background:url(http://images.emedicinehealth.com/images/ads/rightad_bottomtransparent.gif) bottom center no-repeat;clear:both}
+#HealthNewsGfx{width:300px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/health_news_bg.jpg) left top no-repeat}
+#HealthNewsGfx h1{background:0 0!important;color:#4f667e;font-size:16px;font-weight:700;margin:0;padding:5px 0 5px 37px}
+#HealthNewsGfx h1 a{text-decoration:none;color:#4f667e}
+#HealthNewsGfx h1 a:hover{text-decoration:underline}
+#HealthNews{margin:0 0 0 10px;float:left;font-size:12px!important;font-weight:400;line-height:18px;width:280px;padding:0 0 5px}
+#HealthNews ul{list-style-type:none;margin:0 2px;padding:0}
+#HealthNews li{padding:3px 5px}
+#HealthNews li a,#HealthNews li a:visited,#HealthNews p a,#HealthNews p a:visited{text-decoration:none;color:#1f29ad}
+#HealthNews li a:hover,#HealthNews p a:hover{text-decoration:underline;color:#1f29ad}
+#HealthNews p{color:#f60;font-size:11px!important;font-weight:700!important;margin:0;padding:3px 0;text-align:right}
+#AboutA_Z,#Main li,#MiddleCol,#WBMD_Video_fmt,.twoCol{text-align:left}
+.RR_Promo_fmt{clear:both;width:280px;margin:5px 0 10px 10px;padding:0}
+.RR_Promo_hdr{clear:both;width:280px;height:auto;background:0 0;color:#4f667e;font-size:16px;font-weight:700;margin:0;padding:5px 0 5px 5px}
+.RR_Promo_rdr_btm,.RR_Promo_top{height:3px;width:280px;font-size:1%;clear:both}
+.RR_Promo_top{padding:0;margin:0}
+#WBMD_General_hdr,#WBMD_Video_hdr{height:27px;width:300px;margin:0;padding:0}
+.RR_Promo_rdr{font-size:12px!important;clear:both;width:280px!important;padding:0;margin:0}
+.RR_Promo_rdr ul{margin:0 2px;padding:0}
+.RR_Promo_rdr li{padding:3px 5px;clear:both}
+.RR_Promo_rdr li.Elections{clear:both!important;padding:5px}
+#WBMD_General_hdr,#WBMD_Video_bg,#WBMD_Video_fmt,#WBMD_Video_hdr{clear:both;float:left}
+.RR_Promo_rdr li.Elections img{float:left;padding-right:3px}
+.RR_Promo_rdr li a:link,.RR_Promo_rdr li a:visited{text-decoration:none;color:#1f29ad}
+.RR_Promo_rdr li a:hover{text-decoration:underline;color:#1f29ad}
+.ReadMore,.orange{color:#f60}
+.orange{font-size:100%}
+#WBMD_Video_fmt{width:300px;margin:10px 0 0;padding:0 0 5px}
+#WBMD_Video_hdr{background:url(http://images.emedicinehealth.com/images/wbmd_video_rt.gif) top left no-repeat}
+#WBMD_General_hdr{background:url(http://images.emedicinehealth.com/images/wbmd_general_rt.gif) top left no-repeat}
+#WBMD_Video_fmt img{padding:0;margin:0 4px 2px 5px;border:1px solid #999;float:left}
+#WBMD_Video_bg{background:#ededec;width:290px!important;padding:3px 2px 2px;margin:0}
+#WBMD_Video_bg div a{text-decoration:none;font-size:12px!important}
+#WBMD_Video_fmt p{line-height:16px;margin:0;padding:5px 5px 0 15px;font-size:12px!important}
+* html #WBMD_Video_bg{width:295px!important;margin:0;padding:3px 5px}
+#WBMD_Video_rdr p a,#WBMD_Video_rdr p a:visited{color:#1f29ad;text-decoration:none}
+#WBMD_Video_rdr p a:hover{color:#1f29ad;text-decoration:underline}
+#Featured_News_bullets a:link,#Featured_News_bullets a:visited,#HNMain_bullets a:link,#HNMain_bullets a:visited,#HP_DP_fmt a,#NewSlideshows_bullets a:link,#NewSlideshows_bullets a:visited,#TheLatest_bullets a:link,#TheLatest_bullets a:visited,.emedRRFBLikeCont .title a{text-decoration:none}
+.MiddleColTD{padding:0 0 0 3px}
+#MiddleCol{margin:0;float:left;width:494px;padding:0}
+#MiddleCol li,#MiddleCol p,#MiddleCol td{font-size:14px!important;line-height:20px!important}
+.twoCol{margin:0;float:left;width:668px;padding:0 0 0 15px}
+.comment_subject,.twoCol h2{font-weight:700;margin:15px 0 5px;clear:left;color:#4f667e}
+.twoCol h2{font-size:20px}
+.comment_subject{font-size:16px}
+.twoColViewerComment{clear:both;margin:0;width:650px;font-size:100%}
+.twoCol .comment_desc{margin:0;font-size:12px;color:#4f667e}
+.twoCol .comment_ques{font-size:16px;color:#527cad;margin:14px 0;font-weight:700}
+.comment_button,.question_container .question_left,.question_right p{color:#354555;font-weight:700}
+.guidelines{overflow:auto;height:100px;border:1px solid #ccc;padding:8px;margin:25px 0}
+.guidelines p,.policy{font-size:10px}
+.guidelines li{font-size:11px!important}
+.comment_button{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh-viewer-add-comments-sprite.png) 0 -175px no-repeat;height:30px;width:143px;border:none}
+.question_container{margin:0;padding:10px 5px;float:left;width:656px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/vcsu-box.png) no-repeat}
+.question_container .question_left{float:left;width:290px;margin:0 0 0 7px}
+.question_container .question_right{float:right;width:330px;margin:0 10px}
+.comment_container{background-color:#fff;margin:20px 0 10px;padding:0}
+.comment_container_top{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh-viewer-add-comments-sprite.png) no-repeat;height:68px;width:650px;margin:0 0 10px}
+.comment_container h2{float:left;color:#527cad;margin:28px 0 0 64px;padding:0;font-size:19px}
+.comment_container_date{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh-viewer-add-comments-sprite.png) 0 -78px no-repeat;height:21px;width:650px;float:left}
+.comment_date{float:right;margin:0;padding:0}
+.comment_display{margin:10px 0;padding:0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh-viewer-add-comments-sprite.png) 0 -107px no-repeat;height:27px;width:32px}
+.comment_display p{float:left;width:570px;margin:10px 0 10px 30px;padding:10px;color:#4f667e}
+.comment_display span{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh-viewer-add-comments-sprite.png) 0 -142px no-repeat;float:right;height:27px;width:32px;margin:0 -40px 0 0;padding:0}
+#recommend_top{margin:0 0 20px;padding:0}
+#fb_recommend{float:left;width:120px;overflow:hidden;margin:0 10px 0 0}
+#tw_recommend{float:left;width:55px;overflow:hidden;margin-right:11px}
+#gog_recommend{float:left}
+.mastFbLike{position:absolute;right:17px;bottom:15px}
+.mastFbLike a.fbclick{display:block;width:90px;height:20px;position:absolute;z-index:2;background:0 0}
+.emedRRFBLikeCont .emedRRfbToolTip,.fbToolTip{z-index:1000;-webkit-box-shadow:1px 1px 3px #888;-moz-box-shadow:1px 1px 3px #888}
+.mastFbLike .fbLikeBtn{overflow:hidden;position:relative}
+.fbToolTip{position:absolute;display:none;left:-190px;top:28px;width:265px;background-color:#fff;border:1px solid #515f6e;border-bottom-width:2px;padding:5px;font-size:11px}
+.fbToolTip i{display:block;width:13px;height:9px;margin:0;position:absolute;right:30px;top:-9px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/mastarrow_fb.png) left top no-repeat}
+#emedRRFBLike{margin:10px 0 10px 3px;width:300px;position:relative}
+.emedRRFBLikeTop{background:url(http://images.emedicinehealth.com/images/emedicinehealth/rr_emed_facebook_bg2.png) left top no-repeat #fff;height:10px}
+.emedRRFBLikeCont{background:url(http://images.emedicinehealth.com/images/emedicinehealth/rr_emed_facebook_bg2.png) right top repeat-y #fff}
+.emedRRFBLikeCont .title{font-family:"Century Gothic",Arial;font-size:18px;font-weight:700;padding:0 0 0 10px}
+.emedRRFBLikeCont .title a{color:#4f667e}
+.emedRRFBLikeCont .title a:hover{color:#4f667e;text-decoration:underline}
+.emedRRFBLikeCont .fb_like{margin:8px 0 6px 10px;overflow:hidden;position:relative;width:90px}
+.emedRRFBLikeCont .emedRRfbToolTip{position:absolute;display:none;left:10px;top:68px;width:265px;background-color:#fff;border:1px solid #515f6e;border-bottom-width:2px;padding:5px;font-size:11px}
+.emedRRFBLikeCont .emedRRfbToolTip i{display:block;width:13px;height:9px;margin:0;position:absolute;left:42px;top:-9px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/mastarrow_fb.png) left top no-repeat}
+.emedRRFBLikeCont .fb_recommend{height:265px;overflow-x:hidden;overflow-y:scroll;width:272px;padding:0 0 0 10px}
+.emedRRFBLikeCont .fb_recommend div{overflow:hidden}
+.emedRRFBLikeBottom{background:url(http://images.emedicinehealth.com/images/emedicinehealth/rr_emed_facebook_bg2.png) left bottom no-repeat #fff;height:15px}
+#PromoSliderEmed{width:100%;background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/promo-bg.gif);background-repeat:repeat-x;height:221px}
+#slideshow_promo{position:relative;float:left;width:441px;height:201px;overflow:hidden;padding:0;margin:10px 0 10px 23px}
+* html #slideshow_promo{width:455px}
+#slideshow_promo .slide{position:absolute;width:441px;margin:0;height:158px;opacity:.99;overflow:hidden!important}
+#slideshow_promo #slide1{z-index:1}
+#slideshow_promo .slidelinks_container{position:absolute;width:441px;height:158px;opacity:.99;z-index:2;overflow:hidden}
+#slideshow_promo .slidelinks_container a{display:block;width:441px;height:158px;background-image:url(http://images.emedicinehealth.com/images/promochunk/transparent.gif)}
+#A_Z li,#A_Z_hp li,#Med_Dic_A_Z li,#Medication_A_Z li,#Topics_A_Z li,#Vitamins_A_Z li,.AZlist li{display:inline}
+#slideshow_promo #slideshowcontrols{position:absolute;top:158px;z-index:3;padding:0;width:441px;height:48px;background:0 0}
+ul.slideshowcontrolsmiddle{height:48px!important;float:left;z-index:10;position:absolute;width:441px!important;margin:0;padding:0;list-style:none;line-height:normal;font-family:Arial,Helvetica,sans-serif;font-size:12px;text-transform:none;background:0 0}
+* html ul.slideshowcontrolsmiddle{padding-left:15px;width:425px!important}
+ul.slideshowcontrolsmiddle li{z-index:0;height:48px;display:inline;float:left}
+ul.slideshowcontrolsmiddle a:link,ul.slideshowcontrolsmiddle a:visited{color:#fff;text-align:center;float:none;display:block;font-weight:700!important;text-decoration:none;text-transform:none;line-height:14px;font-family:"Century Gothic",arial;font-size:12px!important}
+#Featured_News_bullets a:hover,#HNMain_bullets a:hover,#NewSlideshows_bullets a:hover,#TheLatest_bullets a:hover{text-decoration:underline}
+ul.slideshowcontrolsmiddle #tab-1 a:link,ul.slideshowcontrolsmiddle #tab-1 a:visited{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/promo_button_left_off.gif) 0 -2px no-repeat;width:148px;height:43px;outline:0}
+ul.slideshowcontrolsmiddle #tab-2 a:link,ul.slideshowcontrolsmiddle #tab-2 a:visited{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/promo_button_middle_off.gif) 0 -2px no-repeat;width:147px;height:43px;outline:0}
+ul.slideshowcontrolsmiddle #tab-3 a:link,ul.slideshowcontrolsmiddle #tab-3 a:visited{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/promo_button_right_off.gif) 0 -2px no-repeat;height:43px;width:146px;outline:0}
+* html ul.slideshowcontrolsmiddle a:link,ul.slideshowcontrolsmiddle a:visited{font-family:Arial,Helvetica,sans-serif}
+ul.slideshowcontrolsmiddle .single-line a{line-height:27px!important}
+* html ul.slideshowcontrolsmiddle .single-line a{line-height:26px!important}
+ul.slideshowcontrolsmiddle .padded_fmt,ul.slideshowcontrolsmiddle .single-line .padded_fmt{display:block;padding:4px 2px 0;line-height:16px}
+ul.slideshowcontrolsmiddle #tab-1 a.activeslide,ul.slideshowcontrolsmiddle #tab-1 a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/promo_button_left_on.gif) 0 -2px no-repeat;color:#3e5062;outline:0}
+ul.slideshowcontrolsmiddle #tab-2 a.activeslide,ul.slideshowcontrolsmiddle #tab-2 a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/promo_button_middle_on.gif) 0 -2px no-repeat;color:#3e5062;outline:0}
+ul.slideshowcontrolsmiddle #tab-3 a.activeslide,ul.slideshowcontrolsmiddle #tab-3 a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/promo_button_right_on.gif) 0 -2px no-repeat;color:#3e5062;outline:0}
+#HNMain_heading,.emhCentersHeading{color:#4f667e;font-size:18px;font-weight:700;height:30px;font-family:"Century Gothic",Arial,Helvetica,sans-serif}
+#slideshow_promo .opacity10{opacity:.99;filter:alpha(opacity=100)}
+#slideshow_promo .opacity9{opacity:.9;filter:alpha(opacity=90)}
+#slideshow_promo .opacity8{opacity:.8;filter:alpha(opacity=80)}
+#slideshow_promo .opacity7{opacity:.7;filter:alpha(opacity=70)}
+#slideshow_promo .opacity6{opacity:.6;filter:alpha(opacity=60);visibility:visible!important}
+#slideshow_promo .opacity5{opacity:.5;filter:alpha(opacity=50)}
+#slideshow_promo .opacity4{opacity:.4;filter:alpha(opacity=40)}
+#slideshow_promo .opacity3{opacity:.3;filter:alpha(opacity=30)}
+#slideshow_promo .opacity2{opacity:.2;filter:alpha(opacity=20)}
+#slideshow_promo .opacity1{opacity:.1;filter:alpha(opacity=10)}
+#slideshow_promo .hide{visibility:hidden}
+#slideshow_promo .hideArchive{visibility:hidden;display:none}
+#slideshow_promo .show{visibility:visible!important;display:block!important}
+#HNMain_heading{text-transform:none;margin:10px 0 0 15px;padding:4px 0 0 45px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_lhn.gif) no-repeat}
+* html #HNMain_heading{height:32px}
+#HNMain_bullets{width:460px;padding:8px 0 1px}
+#HNMain_bullets ul{list-style:none;margin:0 0 5px 15px;padding:0 0 0 10px}
+#HNMain_bullets li{list-style:none;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) -2px 6px no-repeat;margin:0;padding:5px 0 5px 15px;border-bottom:1px dashed #ccc}
+#HNMain_bullets li.more{background:0 0!important;border:0!important;font-weight:700}
+.emhCenters{margin:10px 0;padding:0}
+.emhCentersHeading{margin:0 0 5px 15px;padding:4px 5px 0 45px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_emhcenters.jpg) no-repeat}
+* html #Featured_News_heading,* html #NewSlideshows_heading,* html #TheLatest_heading{height:32px}
+.emhCentersBullets{margin:0 0 0 15px;padding:0}
+.emhCentersBullets ul{width:200px;float:left;margin:10px 0!important;padding:0 0 0 20px!important}
+.emhCentersBullets ul.firstUL{margin-right:5px!important}
+.emhCentersBullets ul li{padding:3px 0!important}
+#Featured_News_heading,#NewSlideshows_heading,#TheLatest_heading{margin:0 0 0 15px;padding:4px 5px 0 45px;color:#4f667e;height:30px;font-size:18px;font-weight:700;font-family:"Century Gothic",Arial,Helvetica,sans-serif}
+#Featured_News_bullets,#NewSlideshows_bullets,#TheLatest_bullets{margin-bottom:5px;width:460px;padding:8px 0 1px}
+#Featured_News_bullets ul,#NewSlideshows_bullets ul,#TheLatest_bullets ul{margin:0 0 5px 15px;padding:0 0 0 10px}
+#Featured_News_bullets li,#NewSlideshows_bullets li,#TheLatest_bullets li{list-style:none;padding:5px 0 5px 15px}
+#TheLatest_heading{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_latest.gif) no-repeat}
+#TheLatest_bullets ul{list-style:none}
+#TheLatest_bullets li{background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) -2px 6px no-repeat;margin:0;border-bottom:1px dashed #ccc}
+#TheLatest_bullets li.more{background:0 0!important;border:0!important;font-weight:700}
+#Featured_News_heading{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/featured-news.gif) no-repeat}
+#Featured_News_bullets ul{list-style:none}
+#Featured_News_bullets li{background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) -2px 6px no-repeat;margin:0;border-bottom:1px dashed #ccc}
+#Featured_News_bullets li.more{background:0 0!important;border:0!important;font-weight:700}
+#NewSlideshows_heading{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_new_slideshows.gif) no-repeat}
+#NewSlideshows_bullets ul{list-style:none}
+#NewSlideshows_bullets li{background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) -2px 6px no-repeat;margin:0;border-bottom:1px dashed #ccc}
+#NewSlideshows_bullets li.more{background:0 0!important;border:0!important;font-weight:700}
+.block{width:210px;float:left;padding-left:2px;margin:0}
+.blue_bg{border-bottom:3px solid #09f;width:445px;background:#e4eff6;margin-bottom:5px;padding-top:5px}
+#HP_DP_fmt{float:left;clear:both}
+#HP_DP_teaser{margin:0 0 0 20px;border:0;float:left;padding:3px;width:454px}
+#HP_DP_heading{margin:0 0 0 13px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/dp_top.gif) no-repeat;color:#4f667e;font-family:"Century Gothic",Arial;font-size:18px;font-weight:700;height:30px;padding:5px 2px 3px 45px}
+#HP_DP_teaser img{background:0 #fff;border:1px solid #617e9b;float:right;margin:3px 13px 3px 3px;padding:2px}
+#A_Z,#A_Z ul,#A_Z ul a,.AZlist{float:left}
+#HP_DP_teaser img:hover{border:1px solid #a0cbf5}
+#HP_DP_teaser p{margin:5px 0;padding:0}
+#HP_DP_teaser p span{color:#333!important;font-weight:700}
+#HP_DP_list{border-top:1px solid #ccc;float:left;width:335px}
+#HP_DP_list ul{margin:5px 0 5px 25px;padding:0 0 0 10px}
+#HP_DP_list li{border-bottom:1px dashed #ccc;padding:5px 0;list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif)}
+#HP_DP_list div{color:#333!important;font-weight:700;margin:5px 3px}
+#HP_DP_list div.more{color:#f60!important}
+#HP_DP_fmt a:hover,#Main ul li a:hover,#MainContentLocation ul li a:hover,.HP_etools_fmt .HP_etools_rdr li a:hover{text-decoration:underline}
+.HP_etools_fmt{clear:both;margin:5px 0}
+.HP_etools_fmt .HP_etools_hdr{clear:both;font-size:18px;font-family:"Century Gothic",arial;font-weight:700;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_etools.gif) no-repeat;padding:3px 0 10px 45px;margin:0 0 0 15px;color:#4f667e}
+#A_Z ul,#A_Z_hp ul,.AZlist ul{font-family:"Century Gothic",arial,helvetica,sans-serif;font-size:13px}
+.HP_etools_fmt .HP_etools_rdr{clear:both;padding:8px 0 1px;width:460px}
+.HP_etools_fmt .HP_etools_rdr ul{list-style:none;margin:0 0 5px 15px;padding:0 0 0 10px}
+.HP_etools_fmt .HP_etools_rdr li{margin:0;padding:5px 0 5px 15px;list-style:none;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) -2px 6px no-repeat;border-bottom:1px dashed #ccc}
+#A_Z ul a,* html #A_Z ul a{padding:3px}
+#A_Z ul a,.HP_etools_fmt .HP_etools_rdr li a,.HP_etools_fmt .HP_etools_rdr li a:visited{text-decoration:none}
+.HP_etools_fmt .HP_etools_rdr li.more{background:0 0!important;border:0!important;font-weight:700}
+.eToolsTable{width:475px;margin:10px 0;border:1px solid #babdbf;border-bottom:none}
+.eToolsTableHeader{background-color:#f9f5ea;text-align:center;border:1px solid #babdbf;border-right:none;border-top:none}
+.eToolsTableContentHeader{border:1px solid #babdbf;border-right:none;border-top:none;border-left:none}
+.eToolsTableContentCenter{text-align:center;border:1px solid #babdbf;background-color:#fff;border-right:none;border-top:none}
+.eToolsTableContent{border:1px solid #babdbf;background-color:#fff;border-right:none;border-top:none}
+#A_Z{margin:10px 0;width:480px;clear:both}
+#A_Z ul{padding:0 0 0 1px;margin:0;overflow:hidden;color:#fff;font-weight:700}
+#A_Z ul a{margin:0 5px 5px 0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav.gif) bottom repeat-x;border:1px solid #93a7bb;color:#017fd6;text-transform:uppercase;font-weight:700;width:12px;text-align:center;list-style:none}
+#A_Z ul a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav_on.gif) bottom repeat-x;border:1px solid #7bc9df}
+.AZlist{margin:10px 0;width:455px;clear:both}
+.AZlist ul{padding:0 0 0 1px;margin:0;overflow:hidden;color:#fff;float:left;font-weight:700}
+#A_Z_hp ul a,.AZlist ul a{float:left;margin:0 5px 5px 0;color:#017fd6;text-transform:uppercase;text-decoration:none;list-style:none;padding:3px;font-weight:700}
+.AZlist ul a{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav.gif) bottom repeat-x;border:1px solid #93a7bb;width:12px;text-align:center}
+#A_Z_hp ul a:hover,.AZlist ul a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav_on.gif) bottom repeat-x}
+#A_Z_hp ul a:hover,#Medication_A_Z ul a:hover,#Topics_A_Z ul a:hover,.AZlist ul a:hover{border:1px solid #7bc9df}
+#A_Z_hp ul,#Medication_A_Z ul,#Topics_A_Z ul{width:255px;overflow:hidden}
+* html .AZlist a{padding:3px}
+#A_Z_hp ul a,#Medication_A_Z ul a,#Topics_A_Z ul a{border:1px solid #93a7bb;width:12px}
+#A_Z_hp{float:left;margin:0 0 5px 10px;width:455px;clear:both;background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/a_z_bg_2.gif);background-repeat:no-repeat}
+#A_Z_hp ul{padding:0 0 0 1px;margin:0 0 1px 17px;color:#fff;float:left;font-weight:700}
+#A_Z_hp ul a{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav.gif) bottom repeat-x;text-align:center}
+* html #A_Z_hp ul a{padding:3px}
+.A_ZHeader{clear:both;font-size:18px;font-family:"Century Gothic",arial;font-weight:700;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_a_to_z.gif) no-repeat;padding:3px 0 10px 45px;margin:0 0 10px 5px;color:#4f667e}
+#Medication_A_Z,#Topics_A_Z{width:455px;background-repeat:no-repeat;height:140px;clear:both}
+#Med_Dic_A_Z ul a,#Medication_A_Z ul a,#Topics_A_Z ul a,#Vitamins_A_Z ul a{float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav.gif) bottom repeat-x;text-align:center;list-style:none;text-decoration:none;font-weight:700;text-transform:uppercase}
+#Med_Dic_A_Z ul a:hover,#Medication_A_Z ul a:hover,#Topics_A_Z ul a:hover,#Vitamins_A_Z ul a:hover{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_letternav_on.gif) bottom repeat-x}
+.A_ZHeader a,.A_ZHeader a:hover,.A_ZHeader a:visited{color:#4f667e;text-decoration:none}
+#AboutA_Z{float:left;clear:both;padding:2px 0 5px 38px;width:400px;font-size:10px!important;overflow:hidden;color:gray}
+* html #AboutA_Z{padding:0 0 0 10px;margin-top:1px;height:21px;overflow:hidden;clear:both}
+#Topics_A_Z{float:left;margin:0 0 5px 5px;background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/a_z_bg_topics_hp_2.gif)}
+#Topics_A_Z ul{padding:0 0 0 1px;margin:0 0 1px;color:#fff;float:left;font-family:"Century Gothic",arial,helvetica,sans-serif;font-weight:700;font-size:13px}
+#Topics_A_Z ul a{margin:0 5px 5px 0;color:#017fd6;padding:3px}
+* html #Topics_A_Z ul a{padding:3px}
+.Topics_A_ZHeader{clear:both;font-size:16px;font-family:"Century Gothic",arial;font-weight:700;padding:5px 0 10px;margin:0;color:#4f667e}
+.Topics_A_ZHeader a,.Topics_A_ZHeader a:hover,.Topics_A_ZHeader a:visited{color:#4f667e;text-decoration:none}
+#Medication_A_Z{float:left;margin:0 0 5px 5px;background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/a_z_bg_medication_hp.gif)}
+#Medication_A_Z ul{padding:0 0 0 1px;margin:0 0 1px;color:#fff;float:left;font-family:"Century Gothic",arial,helvetica,sans-serif;font-weight:700;font-size:13px}
+#Medication_A_Z ul a{margin:0 5px 5px 0;color:#017fd6;padding:3px}
+* html #Medication_A_Z ul a{padding:3px}
+.Medication_A_ZHeader{clear:both;font-size:16px;font-family:"Century Gothic",arial;font-weight:700;padding:5px 0 10px;margin:0;color:#4f667e}
+.Medication_A_ZHeader a,.Medication_A_ZHeader a:hover,.Medication_A_ZHeader a:visited{color:#4f667e;text-decoration:none}
+#aboutMedication{width:485px;min-height:180px;padding:0 0 5px;clear:both;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/about_medication_hp.gif) left bottom no-repeat}
+#aboutMedContent{float:right;width:250px}
+#MainContentLocation{width:485px}
+#MainContentLocation #aboutMedContent h3{text-transform:none}
+#MainContentLocation #aboutMedContent p{padding-top:0}
+#MainContentLocation h3.medHelp,#MainContentLocation h3.top20{border-bottom:1px #f60 solid;width:480px;color:#010000}
+#MainContentLocation h3.popMed{color:#010000}
+#MainContentLocation ul.medicationBullets li{list-style-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif);border-bottom:none}
+#MainContentLocation #topmed20 a,#MainContentLocation #topmed20 p.desc{margin:0 15px 5px}
+#MainContentLocation #topmed20 p.desc{font-size:11px;margin-bottom:10px;padding-top:0}
+#MainContentLocation #topmed20 a{font-weight:700}
+#Vitamins_A_Z{float:left;margin:0 0 10px 5px;width:455px;height:140px;clear:both;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/a_z_bg_vit_hp.jpg) left top no-repeat #fff}
+#Vitamins_A_Z ul{padding:0 0 0 1px;margin:0 0 1px;overflow:hidden;color:#fff;float:left;width:255px;font-family:"Century Gothic",arial,helvetica,sans-serif;font-weight:700;font-size:13px}
+#Vitamins_A_Z ul a{margin:0 5px 5px 0;border:1px solid #93a7bb;color:#017fd6;padding:3px;width:12px}
+#Vitamins_A_Z ul a:hover{border:1px solid #7bc9df}
+.Vitamins_A_ZHeader{clear:both;font-size:16px;font-family:"Century Gothic",arial;font-weight:700;padding:5px 0 10px;margin:0;color:#4f667e}
+.Vitamins_A_ZHeader a,.Vitamins_A_ZHeader a:hover,.Vitamins_A_ZHeader a:visited{color:#4f667e;text-decoration:none}
+#aboutVitamins{width:485px;padding:0 0 5px;clear:both;border-bottom:1px #27779b solid}
+#MainContentLocation #aboutVitContent h3{text-transform:none;margin:0 0 5px}
+#MainContentLocation #aboutVitContent p{padding:0;margin:0}
+#MainContentLocation h3.popVit{color:#010000}
+#MainContentLocation ul.vitaminBullets{list-style:none;margin:2px 0 2px 25px;padding:0 0 0 10px;width:180px;float:left}
+#MainContentLocation ul.vitaminBullets li{list-style-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif);border-bottom:none}
+#Med_Dic_A_Z{margin:0 0 5px 5px;width:475px;height:140px;position:relative}
+#Med_Dic_A_Z ul{padding:0 0 0 1px;margin:0 0 1px;overflow:hidden;color:#fff;float:left;width:255px;font-family:"Century Gothic",arial,helvetica,sans-serif;font-weight:700;font-size:13px}
+#Med_Dic_A_Z ul a{margin:0 5px 5px 0;border:1px solid #93a7bb;color:#017fd6;padding:3px;width:12px}
+* html #Med_Dic_A_Z ul a{padding:3px}
+#Med_Dic_A_Z ul a:hover{border:1px solid #7bc9df}
+.Med_Dic_A_ZHeader{clear:both;font-size:16px;font-family:"Century Gothic",arial;font-weight:700;padding:5px 0 10px;margin:0;color:#4f667e}
+#Main h3,#MainContentLocation h5{font-family:"century gothic",Arial,Helvetica,sans-serif}
+.Med_Dic_A_ZHeader a,.Med_Dic_A_ZHeader a:hover,.Med_Dic_A_ZHeader a:visited{color:#4f667e;text-decoration:none}
+#AboutA_Z_med_dic{padding:0;font-size:11px!important;font-size:10px!important;color:gray;position:absolute;right:17px;top:120px}
+#AboutA_Z_med_dic span{color:#069;font-weight:700}
+#AboutA_Z_med_dic .link_fmt{float:right;font-size:85%!important}
+#AboutA_Z_med_dic .link_fmt a{color:#333!important}
+#Med_Dic_A_Z .search_fmt{margin:0;width:190px;color:#333!important;padding:0;font-weight:700;position:absolute;top:78px;right:10px}
+#Med_Dic_A_Z .search_fmt div{float:left}
+#Med_Dic_A_Z .search_fmt form{float:left;padding:0;margin:0}
+#Med_Dic_A_Z .search_fmt form input.Search_box{border:1px solid #617e9b;width:158px;height:19px;line-height:19px;color:#333;font-size:14px!important}
+#MedDicAbout{width:480px;margin:0;padding:0 0 5px;clear:both;border-bottom:1px solid #27779b;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/med_dic_about_bg.gif) right bottom no-repeat}
+#MedDicAboutContent{width:285px}
+.search_fmt form{float:left;padding:0;margin:0}
+.search_fmt form input.Search_box{border:1px solid #617e9b;width:158px;height:19px;line-height:19px;color:#333;font-size:14px!important}
+#mainAlgorithms,#mainCalculators,#mainDiagrams,#mainScores,#mainTables{width:390px;padding:5px 0 0 80px}
+#Main h3{font-size:14px;color:#000;border-bottom:solid 1px #f60;text-transform:capitalize;padding:3px 2px 3px 5px;letter-spacing:2px}
+#Main ul{list-style:none;margin:0 0 0 10px;padding:0 0 0 10px}
+#Main li{font-size:12px;list-style:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_blue.gif);margin:0;padding:3px 0 3px 8px;border-bottom:1px dashed #ccc}
+#Main ul li a,#Main ul li a:visited{text-decoration:none}
+#bullet_noBorder ul li{border-bottom:0;list-style-image:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_blue.gif)}
+#MainContentLocation ul>li,.MainBullets{text-align:left;border-bottom:1px dashed #ccc}
+#mainAlgorithms{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/algorithms_icon.gif) left top no-repeat}
+#mainCalculators{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/calculators_icon.gif) left top no-repeat}
+#mainDiagrams{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/diagrams_icon.gif) left top no-repeat}
+#mainScores{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/scores_icon.gif) left top no-repeat}
+#mainTables{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/table_icon.gif) left top no-repeat}
+.CommonTopics_Col_fmt{float:left;clear:both;width:455px;text-align:left;margin:0 0 20px 10px}
+.CommonTopics_Col_fmt .Topic_Col_1,.CommonTopics_Col_fmt .Topic_Col_2{float:left;width:220px;margin:0;padding:0 3px 0 0}
+.CommonTopics_Col_fmt .Topic_Col_2{padding:0 0 0 10px;border-left:1px solid #ddd}
+.CommonTopics_Col_fmt span.Main{font-weight:700;font-size:12px;clear:both}
+.CommonTopics_Col_fmt h4{font-weight:700;font-size:13px;color:#0070aa;margin:0 0 3px;padding:0}
+.CommonTopics_Col_fmt .Main,.CommonTopics_Col_fmt a:visited.Main{font-weight:700;font-size:14px;color:#0063ce}
+.CommonTopics_Col_fmt a:hover.Main{font-weight:700;font-size:14px;color:#09f}
+.CommonTopics_Col_fmt a.links,.CommonTopics_Col_fmt a:visited.links{font-size:10px;color:#4a4a4a}
+.CommonTopics_Col_fmt a:hover.links{font-size:10px;color:#3a46dc}
+.CommonTopics_Col_fmt .Topic_Col_1 .commonTopicLinks,.CommonTopics_Col_fmt .Topic_Col_2 .commonTopicLinks{float:left;clear:both;margin:5px 0;width:100%;line-height:16px;font-size:11px!important}
+#MainContentLocation ol,#MainContentLocation ul{margin:10px 0 10px 20px;padding:0 20px}
+#MainContentLocation ol>li{font-size:13px;line-height:18px;margin:0 0 20px;padding:0}
+#MainContentLocation ul>li{font-size:12px;list-style-image:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif);background-position:-2px 2px;margin:0;padding:6px 0;background-image:none}
+.MainBullets{list-style:none;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) -2px 2px no-repeat;display:block;margin:0 0 5px;padding:0 0 5px 10px}
+#MainContentLocation ul li a,#MainContentLocation ul li a:visited{text-decoration:none}
+#MainContentLocation h3{font-size:14px!important;padding-bottom:2px}
+#MainContentLocation p{margin:0 0 0 5px;padding:10px 0 0;line-height:18px}
+#MainContentLocation h5{font-size:12px!important;color:#333;padding:2px 0 5px 5px;margin:2px 0}
+#MainContentLocation .LinkTitle_fmt{clear:both;text-align:right!important;width:470px;padding:10px 0 20px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/etools_icon_2.gif) left top no-repeat}
+#SS_Rotator_Tab_1 .selected,#SS_Rotator_Tab_1 a{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/rot_tab_2.gif) right no-repeat;height:29px}
+#MainContentLocation .LinkTitle_fmt a{border-right:1px solid #333;display:inline;padding:0 8px}
+#MainContentLocation .LinkTitle_fmt a:hover{border-right:1px solid #f60}
+#MainContentLocation .LinkTitle_fmt a.LastItem{border:0}
+#AZ_list_container{margin:0;padding:0;width:475px}
+#AZ_list_container ul{list-style:none;margin:0;padding:0}
+#AZ_list_container ul li{font-size:12px;list-style-image:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) left no-repeat;text-align:left;margin:0;padding:3px 0;border-bottom:1px dashed #ccc;line-height:20px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) left no-repeat}
+.AZ_list_thumbs{display:block;float:left;width:400px;padding-top:12px}
+.AZ_thumbs{float:left;margin:0 0 0 10px;width:46px;display:block}
+h2.SS_Rotator_heading{font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;color:#0063ce;text-align:left}
+#SS_Rotator_Tab_1 .selected,#SS_Rotator_Tab_1 a:hover{font-weight:700;color:#fff;line-height:28px;width:100px}
+#RotatorPageTitle h2{clear:both;font-size:16px;font-family:"Century Gothic",arial;font-weight:700;padding:5px 0 10px 5px;margin:0;color:#4f667e}
+#SS_Rotator_Wrapper{display:block;width:470px;height:420px;font-family:Arial,Helvetica,sans-serif;font-size:12px;margin:0 0 0 7px}
+#SS_Rotator_Top_Container{display:block;width:470px;height:29px;float:left}
+#SS_Rotator_Tab_1{display:block;height:29px;width:100px;float:left;text-align:center}
+#SS_Rotator_Tab_1 .selected{display:block;font-size:12px}
+#SS_Rotator_Tab_1 a:hover,#SS_Rotator_Tab_2 .selected,#SS_Rotator_Tab_2 a{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/rot_tab_2.gif) left no-repeat;display:block}
+#SS_Rotator_Tab_1 a{display:block;width:100px;font-weight:700;color:#263544;text-decoration:none;line-height:28px;font-size:12px}
+#SS_Rotator_Tab_1 a:hover{height:28px;text-decoration:none;font-size:12px}
+#SS_Rotator_Tab_2{display:block;height:29px;width:100px;float:left;text-align:center;font-size:12px}
+#SS_Rotator_Tab_2 .selected{height:29px;width:100px;font-weight:700;color:#fff;line-height:29px;font-size:12px}
+#SS_Rotator_Tab_2 a:hover,#SS_Rotator_Tab_3 .selected,#SS_Rotator_Tab_3 a:hover{height:29px;width:100px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/rot_tab_2.gif) right no-repeat;color:#fff;line-height:29px;font-size:12px;font-weight:700}
+#SS_Rotator_Tab_2 a{height:29px;width:100px;font-weight:700;color:#263544;text-decoration:none;line-height:29px;font-size:12px}
+#SS_Rotator_Tab_2 a:hover{display:block;text-decoration:none}
+#SS_Rotator_Tab_3{display:block;height:29px;width:100px;float:left;text-align:center;font-size:12px}
+#SS_Rotator_Tab_3 .selected{display:block}
+#SS_Rotator_left_arrow,#SS_Rotator_left_arrow a,#SS_Rotator_left_arrow a:hover,#SS_Rotator_right_arrow,#SS_Rotator_right_arrow a,#SS_Rotator_right_arrow a:hover{width:16px;height:16px;display:block}
+#SS_Rotator_Tab_3 a{display:block;height:29px;width:100px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/rot_tab_2.gif) left no-repeat;font-weight:700;color:#263544;text-decoration:none;line-height:29px;font-size:12px}
+#SS_Rotator_Tab_3 a:hover{display:block;text-decoration:none}
+#SS_Rotator_Top_Controls_Container{float:right;display:block;width:106px;padding-top:5px}
+#SS_Rotator_left_arrow{float:left}
+#SS_Rotator_left_arrow a{float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_left_arrows.gif) left no-repeat}
+#SS_Rotator_left_arrow a:hover{float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_left_arrows.gif) right no-repeat}
+#SS_Rotator_pg_top{display:block;height:16px;width:52px;float:left;font-size:11px;color:#333;line-height:16px;text-align:center}
+#SS_Rotator_right_arrow{float:right;padding-right:22px}
+#SS_Rotator_right_arrow a{float:right;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_right_arrows.gif) right no-repeat}
+#SS_Rotator_right_arrow a:hover{float:right;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_right_arrows.gif) left no-repeat}
+#SS_Rotator_Content_Container{display:block;width:470px;height:393px;float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_bg.gif) top left no-repeat}
+.SS_Rotator_pic_container{display:block;width:138px;height:153px;float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_photo_bg.gif) left no-repeat}
+.SS_Rotator_pics img{display:block;height:80px;width:118px;margin:13px 0 3px 11px;background:#000}
+p.SS_Rotator_titles{font-weight:700;color:#0063ce;padding-left:11px;line-height:13px;font-size:12px}
+p.SS_Rotator_titles a:link,p.SS_Rotator_titles a:visited{text-decoration:none;color:#0063ce}
+p.SS_Rotator_titles a:hover{text-decoration:underline;color:#0063ce}
+p.SS_Rotator_desc{font-size:10px;color:#333;margin-left:11px;line-height:11px}
+#SS-Rotator_btn_next a,#SS-Rotator_btn_next a:hover,#SS_Rotator_btn_previous a,#SS_Rotator_btn_previous a:hover{width:81px;height:20px;font-size:11px;line-height:20px;display:block;font-weight:700}
+#SS_Rotator_btn_wrapper{display:block;width:470px;height:20px;text-align:center;clear:both}
+#SS_Rotator_btn_container{display:block;width:232px;height:20px;margin:0 auto}
+#SS-Rotator_btn_next,#SS_Rotator_btn_previous{float:left;display:block;width:81px;height:20px}
+#SS_Rotator_btn_previous span{padding-left:20px}
+#SS_Rotator_btn_previous a{float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/btn_rot_left_bg.gif) left no-repeat;color:#333;text-decoration:none}
+#SS_Rotator_btn_previous a:hover{text-decoration:underline;background:url(http://images.emedicinehealth.com/images/emedicinehealth/btn_rot_left_bg.gif) right no-repeat}
+#SS_Rotator_pg_btm{color:#333;font-weight:700;float:left;display:block;width:70px;height:20px;padding-top:3px}
+#SS_Rotator_btn_next span{padding-left:50px}
+#SS-Rotator_btn_next a{float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/btn_rot_right_bg.gif) right no-repeat;color:#333;text-decoration:none}
+#SS-Rotator_btn_next a:hover{text-decoration:underline;background:url(http://images.emedicinehealth.com/images/emedicinehealth/btn_rot_right_bg.gif) left no-repeat}
+.SS_Content_spacer_18{display:block;width:470px;height:18px;clear:both}
+.SS_Content_spacer_16{display:block;width:470px;height:16px;clear:both}
+.SS_Rotator_pics_container_content{width:150px;height:169px;text-align:left;float:left;background:url(http://images.emedicinehealth.com/images/emedicinehealth/rot_photo_bg.gif) left no-repeat}
+#SS_Rotator_margin_left{display:block;width:15px;height:338px;float:left}
+.SS_Rotator_page{float:left;width:452px}
+.SS_Rotator_pics_content{width:140px}
+.SS_Rotator_pics_content p{margin:4px 0 0;padding:0 11px}
+.Hp_tagCloud{width:445px;background:0 0;clear:both;margin:5px 0 5px 15px;padding:0 5px;line-height:22px!important}
+.Hp_tagCloud a{display:inline;padding:2px 5px}
+.Hp_tagCloud a,.Hp_tagCloud a:visited{text-decoration:none}
+.Hp_tagCloud a:hover{text-decoration:underline}
+.Hp_tagCloud_hdr{font-weight:700;font-size:18px;text-align:left;font-family:"Century Gothic";color:#f60;margin:0;padding:0 0 3px}
+.Tag_Largest{font-size:20px}
+.Tag_Large{font-size:15px}
+.Tag_Medium{font-size:12px}
+.Tag_Small{font-size:10px!important}
+#WebMD_Promo{width:470px;clear:both;margin:5px auto;text-align:left}
+#WebMD_Newsletter_body{clear:both;width:470px;padding:0;margin:0;font-size:95%!important;color:#333;background:url(http://images.emedicinehealth.com/images/webmdnewsletter_bg.gif) repeat-y}
+#WebMD_Newsletter_body h3{margin:0;padding:0;font-size:12px}
+#WebMD_Newsletter_body form input,#WebMD_Newsletter_body p{font-size:11px!important;margin:0}
+#WebMD_Newsletter_body p{padding:2px 0}
+#WebMD_Newsletter_body form,* html #WebMD_Newsletter_body form{margin:0;padding:0}
+.wbMD_policy{font-size:9px;padding:0;float:right;margin:10px 15px 0 0}
+.WebMD_Promo_ftr,.WebMD_Promo_hdr{width:470px;margin:0;padding:0;clear:both}
+.WebMD_Promo_hdr{height:30px;background:url(http://images.emedicinehealth.com/images/webmdnewsletter_top.gif) no-repeat}
+.WebMD_Promo_ftr{height:20px;background:url(http://images.emedicinehealth.com/images/webmdnewsletter_bot.gif) 0 bottom no-repeat #fff}
+#WebMD_Newsletter_body .Lft_rdr,#WebMD_Newsletter_body .Rt_rdr{padding:5px 0 0 15px}
+#WebMD_Newsletter_body .clear{clear:both}
+#WebMD_Newsletter_body form input.emailTxt_fmt{border:1px solid #ccc;width:255px;color:#333;height:18px;padding:3px 0 0 3px!important}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck,#WebMD_Promo_rr .emailCheck{padding:0 0 2px;margin:0 0 5px}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck span.emailCheckError,#WebMD_Promo_rr .emailCheck span.emailCheckError{display:block;color:#c00;padding:0 0 5px;visibility:hidden;font-size:12px;line-height:12px}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck span.emailCheckError.error,#WebMD_Promo_rr .emailCheck span.emailCheckError.error{visibility:visible}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck input,#WebMD_Promo_rr .emailCheck input{margin:0 4px 0 0;padding:0;vertical-align:bottom}
+#WebMD_Res_body,#WebMD_Res_btm{width:300px;margin:0;padding:0;float:left;clear:both}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck input.error,#WebMD_Promo_rr .emailCheck input.error{outline:red solid 1px}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck label,#WebMD_Promo_rr .emailCheck label{font-style:italic;color:#333;display:block;font-size:11px;line-height:12px}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck label a,#WebMD_Promo_rr .emailCheck label a{text-decoration:none;color:#39c}
+#WebMD_Newsletter_body .Rt_rdr .emailCheck label a:hover,#WebMD_Promo_rr .emailCheck label a:hover{text-decoration:underline}
+#WebMD_Newsletter_body h3{color:#f90}
+#WebMD_Res_body{background:url(http://images.emedicinehealth.com/images/emedicinehealth/webmd_resource_bg.gif) repeat-y}
+#WebMD_Res_btm{height:10px;font-size:1%}
+.more{text-align:right;font-size:11px!important;font-weight:700;color:#f60!important;margin-right:5px;clear:both}
+.shadetabs li a:hover,.shadetabs li a:visited{color:#2d2b2b}
+.more a{text-decoration:none}
+.more a:hover{text-decoration:underline}
+.shadetabs li a,.shadetabs li a.selected:hover{text-decoration:none}
+.shadetabs{padding:3px 0;margin-left:4px;margin-top:1px;margin-bottom:0;font:700 10px Arial,Helvetica,sans-serif;list-style-type:none;text-align:left}
+.copyNormal center,.firstAidAZ_tabs,p.Emergency_fmt{text-align:center}
+.shadetabs li{display:inline;margin:0}
+.shadetabs li a{position:relative;z-index:1;padding:1px 3px 3px;margin:0;border:1px solid #778;color:#2d2b2b;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/shade.gif) top left repeat-x #fff}
+.shadetabs li a.selected,.shadetabs li a:hover{background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/shadeactive.gif);border-bottom-color:#fff;top:1px;position:relative}
+.tabcontent{display:none}
+.tabcontent ul{margin:5px;padding:0 0 0 10px;font-size:12px}
+.tabcontent li{padding:5px 0;list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+@media print{
+	.tabcontent{display:block!important}
+}
+p.Emergency_fmt{padding:0;clear:both;margin:0 0 5px 20px;width:400px}
+.Emergency_fmt{font-weight:700;font-size:90%;color:#5e5e5e;padding:5px!important;margin:0;border:1px solid #ddd;clear:both}
+.top20_fmt{clear:both;margin:5px 0 10px!important;width:455px}
+.top20_fmt .top20_hdr{clear:both;color:#333!important;font-size:14px}
+.top20_fmt .top20_hdr h3{border-bottom:1px solid #f60;color:#000;font-family:"century gothic",Arial,Helvetica,sans-serif;font-size:14px;margin:0 0 5px;padding:3px 2px 3px 5px;text-transform:uppercase}
+.top20_fmt .top20_rdr{clear:both}
+.top20_fmt .top20_rdr ul{float:left;width:200px;margin:0 0 5px 25px;padding:0;list-style:none!important;font-size:100%;border-bottom:0}
+* html .top20_fmt .top20_rdr ul{width:215px}
+.top20_fmt .top20_rdr li{padding:3px 0;list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+.firstAidAZ_fmt{clear:both;width:455px;margin:10px 0 15px!important;border-bottom:3px solid #cecece}
+.firstAidAZ_hdr{clear:both;background:url(http://images.emedicinehealth.com/images/emedicinehealth/bg_firstaid_az_2.jpg) top left no-repeat;font-size:120%;color:#354555;font-weight:700;padding:5px 0 2px 5px;height:20px}
+.firstAidAZ_hdr span{font-size:80%!important;font-weight:400!important}
+.firstAidAZ_tabs{clear:both;padding:0;border:1px solid #ccc;border-top:0;background:#6c8cab}
+.firstAidAZ_tabs ul{clear:both;height:20px;padding:0;margin:0;border:1px solid #fff;border-left:0;border-right:0}
+.firstAidAZ_tabs li a,.firstAidAZ_tabs li a:visited,.firstAidAZ_tabs li.NoInfo{background:#6c8cab;float:left;font-size:13px!important;border-left:1px solid #fff;margin:0;text-decoration:none;font-weight:700}
+.firstAidAZ_tabs ul li{list-style:none;padding:0;margin:0;display:inline;font-family:"Century Gothic",arial,helvetica,sans-serif}
+.firstAidAZ_tabs li a,.firstAidAZ_tabs li a:visited{padding:2px 4px;color:#fff}
+.firstAidAZ_tabs li.NoInfo{padding:2px 3px;color:#415967}
+.firstAidAZ_tabs li a#firstItem{border:0}
+.firstAidAZ_tabs li a:hover{background:#4f9dec;color:#fff}
+.firstAidAZ_tabs li a.selected{background-color:#4f9dec;color:#fff}
+.firstAidAZ_tabs li a.selected:hover{text-decoration:none}
+.firstAidAZ_content{border:1px solid #dedede!important;border-top:0;height:200px;margin:0;overflow:auto;padding:0;width:453px;clear:both}
+.AZBoxCol{margin-left:15px}
+.article p.citation{font-size:11px}
+.article p{font-size:100%;margin:0;padding:0}
+.article{padding-left:5px;width:480px}
+.font_sizer_fmt{width:70px;height:42px;margin:0;float:right}
+.font_sizer_text_fmt{width:66px;margin:0;text-align:center;font-size:75%!important;text-transform:uppercase;line-height:12px}
+.font_sizer_break_fmt{clear:both}
+.font_sizer_fmt .font_sizer_001_fmt{background:url(http://images.emedicinehealth.com/images/rxlist/font_sizer_001.gif) no-repeat;width:6px;height:26px;float:left;padding:0}
+.font_sizer_fmt .font_sizer_002a_fmt{background:url(http://images.emedicinehealth.com/images/rxlist/font_sizer_002a.gif);width:17px;height:26px;float:left}
+.font_sizer_fmt .font_sizer_002b_fmt{background:url(http://images.emedicinehealth.com/images/rxlist/font_sizer_002b.gif);width:17px;height:26px;float:left}
+.font_sizer_fmt .font_sizer_003_fmt{background:url(http://images.emedicinehealth.com/images/rxlist/font_sizer_003.gif);width:9px;height:26px;float:left;font-size:1%}
+.font_sizer_fmt .copyA_fmt{font-size:90%;float:left;margin:6px 5px 5px;line-height:17px}
+* html .font_sizer_fmt .copyA_fmt{line-height:normal}
+.font_sizer_fmt .copyB_fmt{font-size:115%;float:left;margin:6px 4px 4px;line-height:15px}
+.font_sizer_fmt .copyC_fmt{font-size:135%;float:left;margin:6px 3px 0;line-height:13px}
+.font_sizer_fmt a:link,.font_sizer_fmt a:visited{color:#164c6a}
+.copyNormal{font-size:13px;line-height:18px}
+.copyNormal p{margin-bottom:25px;font-size:13px}
+.copyMedium h2,.copyNormal h2{margin:5px 0 20px;text-align:left}
+.copyNormal h2{font-size:160%;padding:5px 0 0 3px;line-height:22px}
+.copyNormal h3{color:#151515;font-weight:700}
+.copyMedium{font-size:120%;line-height:18px}
+#globalFooter,.copyMedium .subhead_fmt{line-height:20px}
+.copyMedium h2{line-height:24px;padding:2px 0 0 3px;font-size:170%}
+.copyMedium p{margin-bottom:13px}
+.copyLarge{font-size:130%;line-height:28px}
+.copyLarge .subhead_fmt{line-height:24px}
+.copyLarge h2{line-height:30px;font-size:180%;text-align:left;margin:5px 0 20px;padding:0 0 0 3px}
+.copyLarge p{margin-bottom:17px}
+.copyNormal ul{margin:5px 5px 25px 13px;padding:0 0 0 10px;font-size:13px}
+.copyNormal li{padding:1px 0}
+.copyMedium ul{margin:5px 5px 5px 20px;padding:0 0 0 10px;font-size:120%}
+.copyMedium li{padding:3px 0}
+.copyLarge ul{margin:5px 5px 5px 20px;padding:0 0 0 10px;font-size:130%;line-height:28px}
+.copyLarge li{padding:3px 0}
+ul.tocBullet{list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+ul.tocBullet li ul{list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/ads_circle.png)}
+ul.tocBullet li{padding:0 0 3px}
+.article #lrgArtImg{border:1px solid #9d9c98;background-color:#f9f5ea;margin:25px 10px 25px 0;padding:10px;text-align:center;clear:both;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}
+.article #lrgArtImg img{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;border:1px solid #9d9c98;max-width:100%;height:auto;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px}
+.article #lrgArtImg span.lrgArtImgCap{display:block;font-style:italic;padding-top:7px;text-align:center;color:#333;font-size:14px}
+.pagination{color:#333;padding:0 0 0 2px;margin:0;float:left;font-size:12px!important;font-weight:700}
+.pagination a img{text-decoration:none}
+.pagination ul{list-style-type:none;text-align:center;float:left;margin:3px 0 0;padding:3px 0;font-size:12px}
+.pagination ul li{display:block;margin:0;padding:0;text-align:center;float:left}
+.pagination ul li a,.pagination ul li a:visited{padding:0 5px;text-decoration:none;border-left:1px solid #dedede;display:block;color:#1f29ad}
+.pagination ul li.PageVisited{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/pag_bg.gif) center top repeat-x;border-left:1px solid #dedede;color:#fff!important;font-weight:700;padding:0 5px;text-decoration:none!important}
+.pagCurNum,.paginationCell a{background-color:#f9f5ea;text-shadow:1px 1px 0 #fff}
+.pagination ul li a:hover{top:1px;position:relative}
+.pagination .pagNextPrevGloss a:hover{top:0;position:relative;text-decoration:underline}
+.NextPrev{border:0!important;font-size:95%!important;clear:both;color:#f60}
+.NextPrev span{position:relative;font-weight:700;font-size:14px;top:-1px}
+.pagination ul.NextPrev li,ul.NextPrev li a{display:inline!important}
+.paginationName{clear:both;padding:1px 5px 5px;margin:0;font-size:12px;width:430px;text-align:center;color:#333}
+.Specialty_rdr{margin:0 0 5px;padding:5px 0 0;font-size:95%!important;color:#000!important;float:left;clear:both;width:100%}
+.Specialty_rdr ul{list-style:none;margin:0;padding:0;border:none}
+.Specialty_rdr li{display:inline;margin:0;padding:0 4px!important;float:left;width:auto;border-left:1px solid #ccc;font-size:95%!important}
+.Specialty_rdr li.Specialty{font-size:95%!important;border-left:0}
+#mainPagePag{margin:0;padding:0;width:405px}
+#mainPagePag.bottom{margin:20px 0}
+.vit_fmt #mainPagePag{margin:0 0 20px}
+.pagePag{float:left;margin:0 0 5px;padding:0}
+.pagTitle{float:left}
+.dots{float:left;margin-right:4px;padding:3px 5px 2px;color:#595959}
+.paginationCellNext,.paginationCellPrevious{float:left;padding:2px 5px;font-weight:700;font-size:12px}
+.paginationCellPrevious a{margin-left:5px}
+.paginationCellNext a{margin-right:5px}
+.paginationCellNext span,.paginationCellPrevious span{color:#f60;font-size:14px;position:relative;top:-1px}
+.pagCurNum,.paginationCell{font-size:12px;line-height:18px}
+.paginationCell{float:left;margin:0 4px 4px 0;min-width:13px;text-align:center}
+.paginationCurrent{font-weight:700;border:1px solid #7ea1c2;-moz-box-shadow:0 0 1px #999;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.pagCurNum{border:1px solid #fff;padding:0 4px;min-width:14px;color:#4f667e;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.paginationCell a{display:block;padding:1px 5px;text-decoration:none;border:1px solid #e3e6e8;min-width:15px;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px}
+.paginationCell a:hover{text-decoration:underline;border:1px solid #6c8cab;-moz-box-shadow:0 0 2px #999;-webkit-box-shadow:0 0 2px #999;box-shadow:0 0 2px #999}
+#pagLinks{margin:0 0 4px;clear:left}
+.pagNum{float:left;font-size:11px;padding:0 5px;margin-right:5px;color:#333}
+.pagGloss,.pagTopicGuide{font-size:12px;float:left;font-weight:700}
+.pagGloss{background:url(http://images.emedicinehealth.com/images/emedicinehealth/glossar_icon.jpg) left center no-repeat #fff;padding:0 0 1px 17px}
+.pagTopicGuide{padding:0 0 1px 4px;border-left:1px #e9e9e9 solid;margin:0 0 0 4px}
+.pagNextPage{margin:0 0 6px;border-bottom:1px #e9e9e9 solid;padding:0 0 6px}
+.nextPage{float:left;font-size:11px;color:#333;padding:0 5px}
+.nextPageLink a{font-size:12px;font-weight:700;padding:0 5px 0 0}
+.nextPageLink span{color:#f60;font-size:14px;position:relative;top:-1px}
+.Pagination_fmt{margin:5px 0 5px 10px;padding:0;font-size:12px}
+.Pagination_fmt .pagination_rdr{padding:0 0 5px}
+.Pagination_fmt .pagination_rdr ul{margin:0;padding:0;list-style-type:none;text-align:center}
+.Pagination_fmt .pagination_rdr ul li{display:block;margin:0;padding:0;text-align:center;float:left}
+.Pagination_fmt .pagination_rdr ul li.selected{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/pag_bg.gif) center top repeat-x;color:#fff!important;font-weight:700;padding:1px 5px 1px 6px;text-decoration:none!important;display:block}
+.Pagination_fmt .pagination_rdr ul li a,.Pagination_fmt .pagination_rdr ul li a:visited{font-weight:700;padding:1px 5px 1px 6px;text-decoration:none;border-left:1px solid #dedede;display:block}
+.Pagination_fmt .pagination_rdr ul li a:hover{font-weight:700;padding:1px 5px 1px 6px;text-decoration:underline;border-left:1px solid #dedede;display:block}
+.printerFriendly{padding:0 3px 0 22px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/printer_icon.jpg) left center no-repeat}
+.printerFriendly:hover{padding:0 3px 0 22px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/printer_icon_hover.jpg) left center no-repeat}
+.emailFriend{padding:0 0 0 22px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/email_icon.jpg) left center no-repeat}
+.emailFriend:hover{padding:0 0 0 22px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/email_icon_hover.jpg) left center no-repeat}
+#ITA{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_headers_blue_2.gif) left top no-repeat;clear:both;float:right;font-size:11px!important;margin:10px 0 10px 5px;padding:0;width:200px}
+#ITA h3,.copyLarge #ITA h3{color:#4f667e;font-size:12px;height:14px;padding:5px 2px 0 10px;margin:0}
+.copyLarge #ITA h3{line-height:18px}
+#ITA_bg{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_headers_blue_bottom.gif) center bottom no-repeat;font-size:13px;margin:0;padding:0 0 15px;width:200px}
+#ITA ul{margin:0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/bg_headers_blue_body.gif) center top repeat-y;padding:10px 5px 0}
+#ITA li{padding:0;margin:0;list-style:none}
+#ITA li a,#ITA li a:visited,#ITA li.CurrentPage{margin:0;padding:3px 2px 3px 10px;border-bottom:1px dashed #ccc}
+#ITA li a,#ITA li a:visited{text-decoration:none;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_blue.gif) 0 4px no-repeat;display:block}
+#ITA li.CurrentPage{font-weight:700;color:#f60;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) 0 6px no-repeat #ece9e1}
+#ITA li a:hover{text-decoration:underline;font-weight:400!important;background-color:#ece9e1}
+.SearchResults_fmt{clear:both;text-align:left;background:#fff}
+.SearchResults_fmt a,.SearchResults_fmt a:visited{text-decoration:none}
+.SearchResults_fmt a:hover{text-decoration:underline}
+.SearchResults_hdr{clear:both;margin:0 0 5px;width:460px}
+.SearchResults_hdr h2{font-size:16px!important;margin:3px 0 2px;padding:0}
+.SearchResults_hdr div.Text_fmt{font-size:11px!important;color:#333!important;border:1px dashed #dedede;border-left:0;border-right:0;padding:3px 0;margin:5px 0;width:470px}
+.SearchResults_rdr{clear:both;margin:10px 0}
+.SearchResults_rdr ul{margin:5px 0 5px 15px;padding:0 0 0 15px;width:440px}
+.SearchResults_rdr li{border-bottom:1px dashed #ccc;list-style:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif);padding:3px 0}
+.SearchResults_rdr li span{font-size:11px;color:#666}
+.SearchResults_rdr li.SeeResults{color:#f60;font-weight:700;list-style:none!important;text-align:right;border-bottom:none!important}
+.SearchResults_rdr .Results_hdr{color:#333!important;font-weight:700;font-size:14px}
+.SearchResults_rdr .Results_hdr span{font-size:11px!important;color:#666}
+.SearchBox_fmt{clear:both;float:left;padding:0;margin:5px 0;width:465px;height:50px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/search_results_search_box_bg.gif) center top no-repeat #fff}
+.SearchBox_fmt .SearchBox_rdr{padding:3px 0 0 10px}
+.SearchBox_fmt .Text_fmt{float:left;font-size:11px;font-weight:700;color:#333!important;padding:15px 5px 0 15px}
+.SearchBox_fmt form{padding:9px 0 2px 10px;margin:0}
+.SearchBox_fmt form .Search_fmt{border:1px solid #617e9b;color:#333;font-size:18px;height:22px;line-height:26px;width:200px}
+.SearchBox_fmt form .Submit_btn{padding:0;margin:-8px 0 0}
+.SearchResults_Pagination{clear:both;float:left;margin:5px 0;padding:5px 0}
+.SearchResults_Pagination .SeeResults{color:#333}
+.SearchResults_Pagination .PageOf_fmt{color:#333;font-size:11px!important;float:right}
+.SearchResults_Pagination .Pages_fmt{float:left;font-size:11px!important}
+.SearchResults_Pagination a{display:inline;padding:1px 4px;border-left:1px solid #ddd}
+.SearchResults_Pagination span.Selected{padding:1px 4px}
+.Yahoo{clear:both;margin:5px 5px 5px 0;padding:5px 0;font-size:12px;border-bottom:3px solid #dedede;border-top:3px solid #dedede;width:470px}
+.AdsByYahoo{font-weight:700;color:#069;font-size:8pt!important;text-align:right;clear:both}
+.Yahoo ul{margin:0 0 0 5px;padding:0 0 0 15px;clear:both}
+.Yahoo li{list-style:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/ads_circle.png);padding:3px 0;font-size:12px!important;line-height:15px}
+.Yahoo li a{text-decoration:none;font-weight:700}
+.Yahoo li a:hover{text-decoration:underline}
+.Yahoo li span a{font-weight:400!important;font-size:11px!important}
+#AZ_container{width:485px;clear:both;text-align:left}
+#AZ_container h3{color:#069;margin:0 0 5px;padding:0;font-size:16px}
+#AZ_container p{margin:0;padding:3px 0}
+#AZ_container h5{color:#069!important;margin:0;padding:0;font-size:13px!important}
+#AZ_container .AZ_results{float:left;clear:both;width:475px}
+#AZ_container .AZ_results ul{padding-left:5px;margin:10px 0 5px 15px;width:455px}
+#AZ_container .AZ_results h4,#AZ_container .AZ_results h5{font-family:"century gothic",Arial,Helvetica,sans-serif;margin:5px 0}
+* html .Dict_SearchResults_fmt,* html .Dict_SearchResults_hdr,.Dict_SearchResults_hdr{width:460px}
+#AZ_container .AZ_results li{padding:4px 0;border-bottom:1px dashed #ddd;list-style:url(http://images.emedicinehealth.com/images/arrow_orange.gif);color:#06c}
+#AZ_container .AZ_results li span{color:#666;font-size:10px}
+#AZ_container .AZ_results li a{text-decoration:none}
+#AZ_container .AZ_results li a:hover{text-decoration:underline}
+#AZ_container .AZ_results h4{color:#f60!important}
+#AZ_container .AZ_results h4 a{border-right:1px solid #ccc;padding:0 5px;text-decoration:underline}
+#AZ_container .AZ_results h5{border-bottom:1px solid #babdbf;font-size:110%;padding:2px 2px 3px 5px;background:#f9f5ea}
+#featurewidget,.aia_rdr{font-family:Arial,Helvetica,sans-serif}
+.Dict_SearchResults_fmt{clear:both;text-align:left;width:460px;background:#fff}
+.Dict_SearchResults_fmt a,.Dict_SearchResults_fmt a:visited{text-decoration:none}
+.Dict_SearchResults_fmt a:hover,.comment_date a:hover{text-decoration:underline}
+.Dict_SearchResults_hdr{clear:both;margin:0 0 5px}
+.Dict_SearchResults_hdr h2{font-size:14px!important;margin:0 0 2px;padding:0}
+.Dict_SearchResults_hdr div.Text_fmt{font-size:11px!important;color:#333!important;border:1px dashed #dedede;border-left:0;border-right:0;padding:3px 0}
+#quizLinks ul li,.Dict_SearchResults_rdr li{list-style:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif);border-bottom:1px dashed #ccc}
+.Dict_SearchResults_rdr{clear:both}
+.Dict_SearchResults_rdr ul{margin:5px 0 5px 15px;padding:0 0 0 15px}
+.Dict_SearchResults_rdr li{padding:3px 0}
+.Dict_SearchResults_rdr .Dict_Results_hdr{color:#333!important;font-weight:700}
+.Dict_SearchResults_rdr .Dict_Results_hdr span{font-size:11px!important}
+.Search_Dictionary_fmt{clear:both;float:left;padding:0;margin:5px 0 5px -2px;width:470px;height:50px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/search_results_search_box_bg.gif) no-repeat!important}
+* html .Search_Dictionary_fmt{width:460px}
+.Search_Dictionary_fmt .Search_Dictionary_rdr{padding:3px 0 0 10px}
+.Search_Dictionary_fmt .Text_fmt{float:left;font-size:11px;font-weight:700;color:#333!important;padding:15px 0 2px 10px}
+.Search_Dictionary_fmt form{padding:10px 0 2px 10px;margin:0}
+.Search_Dictionary_fmt form .Search_fmt{border:1px solid #999;height:20px;margin:-20px 0 0 4px;padding:0 0 0 2px;width:197px}
+.Search_Dictionary_fmt form .Submit_btn{padding:3px 0 0}
+.Dict_SearchResults_Pagination{clear:both;float:left;margin:5px 0;padding:5px 0}
+.Dict_SearchResults_Pagination .SeeResults{color:#333}
+.Dict_SearchResults_Pagination .PageOf_fmt{color:#333;font-size:11px!important;float:right}
+.Dict_SearchResults_Pagination .Pages_fmt{float:left;font-size:11px!important}
+.Dict_SearchResults_Pagination a{display:inline;padding:1px 4px;border-left:1px solid #ddd}
+.Comment_rdr li span,.comment_date,.comment_from{display:block;font-style:italic}
+.Dict_SearchResults_Pagination a.Previous{border-left:none!important}
+.Dict_SearchResults_Pagination span.Selected{padding:1px 4px}
+#rrsspDiv{padding:0;margin:0 0 10px 2px}
+#simplegallery1{position:relative;visibility:hidden;margin:0 0 10px 2px}
+#simplegallery1 .gallerydesctext{text-align:left;padding:2px 5px}
+.Viewer_Comment_fmt{clear:both;margin:10px auto;width:470px;font-size:100%}
+.Viewer_Comment_fmt#Main{border-top:none}
+.Viewer_Comment_hdr{clear:both;height:40px;background:url(http://images.emedicinehealth.com/images/forum_header_viewercomments.gif) top left no-repeat;width:470px;margin:0 0 5px}
+.Viewer_Comment_hdr h3{clear:both;margin:2px 5px;padding:10px 0 2px 6px;color:#27a2d7;font-size:14px}
+.Viewer_Comment_hdr h3 span{color:#2782b0}
+.Comment_rdr{clear:both;margin:2px 0;padding:3px 0;border-top:1px solid #ddd;border-left:0;border-right:0;font-size:100%!important}
+.Comment_rdr ol{margin:3px 0 3px 15px;padding:0 0 0 15px}
+.Comment_rdr li{padding:4px 0;border-bottom:1px solid #ddd;line-height:16px}
+.Comment_rdr li span{font-size:90%!important;color:#666}
+.comment_list{width:460px;padding:5px 0 0;margin:0 0 0 10px}
+.comment_list p{padding:0 10px 15px 0;border-bottom:1px dashed #27779b;font-size:13px!important;line-height:18px;margin:5px 0}
+.comment_date{padding-top:4px;font-size:10px!important;color:#666}
+.comment_date a:link,.comment_date a:visited{color:#666;text-decoration:underline}
+.comment_date a:hover{color:#906}
+.comment_from{font-weight:700;font-size:11px!important;color:#4f667e;margin:0;padding:0}
+#Doctor_Comment_rdr{clear:both;margin:5px 0;padding:0;width:470px}
+#Doctor_Comment_rdr h3.Doctor_comment_h3{clear:both;margin:2px 5px;padding:10px 0 2px 6px;color:#27a2d7;font-size:14px;border-bottom:none;font-family:Arial,Helvetica,sans-serif;letter-spacing:0}
+#Doctor_Comment_rdr h3 span{color:#2782b0}
+#Doctor_Comment_rdr .Doctor_Comment{clear:both;float:left;background:#f0f0ee;border-left:1px solid #ddd;border-right:1px solid #ddd;width:468px}
+* html #Doctor_Comment_rdr .Doctor_Comment{width:470px}
+#Doctor_Comment_rdr .Doctor_Comment p{padding:5px;margin:0 0 0 6px}
+#Doctor_Comment_rdr .Doctor_fmt{padding:3px 0 0 5px}
+.Doctor_Comment_top{height:5px;font-size:1%;background:url(http://images.emedicinehealth.com/images/bg_doctorcomments.gif) top left no-repeat;clear:both}
+* html #Doctor_Comment_rdr #Main,.Doctor_Comment_top#Hdr{background:url(http://images.emedicinehealth.com/images/viewer_comments_hdr_3.gif) top left no-repeat;height:30px;clear:both}
+.Doctor_Comment_top#Hdr{margin:0;padding:0}
+.Doctor_Comment_top#Hdr h2{color:#2782b0;font-size:16px;padding:10px 0 0 10px;text-align:left}
+* html #Doctor_Comment_rdr #Main{font-size:1%}
+.Doctor_Comment_btm{height:5px;font-size:1%;background:url(http://images.emedicinehealth.com/images/bg_doctorcomments.gif) bottom left no-repeat;clear:both}
+#Doctor_Comment_rdr .Doctor_fmt{font-weight:700;font-style:italic;margin:0 0 0 5px}
+#Doctor_Comment_rdr .SubmitComment_fmt{font-size:11px!important;clear:both;padding:5px 0 2px 15px;margin:0 0 5px;position:relative!important}
+#Doctor_Comment_rdr .SubmitComment_fmt a.submit_comment{position:absolute;top:13px;right:23px;padding:3px;margin:3px 3px 0 0;background-color:#27a2d7;text-decoration:none;color:#fff;border:1px solid #2782b0;font-weight:700}
+#Doctor_Comment_rdr .SubmitComment_fmt a.submit_comment a{font-weight:700}
+#Doctor_Comment_rdr .SubmitComment_fmt a.submit_comment:visited{text-decoration:none;color:#fff}
+#Doctor_Comment_rdr .SubmitComment_fmt a.submit_comment:hover{text-decoration:none;color:#fff;background-color:#2782b0}
+.Alert_fmt{border:1px solid #ddd;background-color:#f0f0ee;color:#333;clear:both;font-size:85%!important;margin:5px 0 10px 9px;padding:10px;width:447px}
+.Alert_fmt p{font-size:90%!important;margin:0}
+.Viewer_Comment_fmt ul{padding:5px 0 10px 10px;margin:0 0 0 10px}
+.Viewer_Comment_fmt ul li{list-style:url(http://images.emedicinehealth.com/images/arrow_orange.gif);padding:3px 0}
+#ArticleInArticle_fmt{float:right;text-align:left;font-size:90%!important;margin:10px 5px;width:260px}
+#ArticleInArticle_hdr{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh_dp_top.gif) left top no-repeat;font-size:1%!important;padding:0;margin:0;height:30px}
+#ArticleInArticle_rdr{border:1px solid #babdbf;padding:5px;font-size:100%!important;line-height:15px}
+#ArticleInArticle_rdr h6{margin:0;padding:5px 0;font-size:110%!important;color:#292929!important}
+#ArticleInArticle_rdr p{margin:0;padding:2px 0;line-height:18px;font-size:13px}
+#ArticleInArticle_rdr p.Emph{font-size:90%!important;line-height:13px}
+#ArticleInArticle_rdr img{background-color:#fff;border:1px solid #ddd;margin:5px;padding:5px}
+#ArticleInArticle_btm{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/emh_p2p_btm.gif) bottom left no-repeat;height:10px;font-size:1%;clear:both}
+#ArticleInArticle_links{font-size:90%!important;padding:3px 3px 0;margin:5px 0 0;border-top:3px solid #ccc}
+#ArticleInArticle_links div{font-size:105%!important;font-weight:700;margin:0 0 4px;color:#0d4c6c}
+.aia_rdr{background:#fff;margin:5px 0 5px 5px;width:207px;text-align:left;float:right}
+.aia_top_fmt{background:url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/aia2_top_bot.gif) no-repeat;height:3px;font-size:1%}
+.aia_border_fmt{background:#fff;border-left:1px solid #deded4;border-right:1px solid #deded4}
+.aia_title_bar_fmt{background:url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/aia2_banner.gif) repeat-x #f0efe3;border-bottom:1px solid #dcd4be;margin:0;padding:5px}
+.aia_title_bar_fmt h4{float:left;font-size:12px;line-height:12px;margin:0;padding:1px 0;width:128px;color:#333}
+.aia_title_bar_fmt .logo{display:inline;float:right;margin:0;overflow:hidden;padding:0;width:64px}
+.aia_rdr .aia_subhead_fmt{color:#87734c;font-weight:700;margin:5px 7px;font-size:14px}
+.aia_captioned_img{float:left;line-height:normal;margin:4px 0 3px 5px;padding:0;width:85px}
+* html .aia_captioned_img{margin-top:9px}
+.aia_captioned_img p{font-size:70%;margin:0;padding:0}
+.aia_section_fmt{clear:both;margin:0;padding:0 0 7px}
+.aia_content_fmt{font-size:12px}
+.aia_section_fmt .thumbnail{float:left;margin:2px 3px 3px;overflow:hidden;padding:0 5px 0 0;width:85px}
+.thumbnail .pic{border:1px solid #deded4}
+.aia_content_fmt #aia_highlight_fmt li.here a:active,.aia_content_fmt #aia_highlight_fmt li.here a:hover,.aia_content_fmt #aia_highlight_fmt li.here a:link,.aia_content_fmt #aia_highlight_fmt li.here a:visited{color:#000;font-weight:700}
+.aia_content_fmt p{line-height:normal;margin:5px 7px 0}
+.aia_content_fmt ul,.aia_extra_fmt ul{margin:5px 7px;padding:0}
+.aia_content_fmt #list_item1{margin:5px 0 0 58px;min-height:55px;width:110px}
+* html .aia_content_fmt #list_item1{float:right;height:55px;margin-left:75px;margin-top:-5px}
+.aia_content_fmt ul li{background:url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/linkslisttoc_bullet.gif) 0 4px no-repeat;list-style-type:none;line-height:16px;padding-left:13px;font-size:12px}
+p.aia_read_full_fmt{font-size:80%;font-weight:700;padding:0 6px 6px;margin:0}
+#story,* html #viewercomments{padding-bottom:0}
+.aia_read_full_fmt img{margin:3px 6px 0 7px}
+p.aia_relatedHrefs_fmt{line-height:15px;margin:2px 0;padding:0;width:190px}
+* html .aia_section_fmt ul{margin:0;padding:0;width:190px}
+.aia_bot_fmt{background:url(http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/modules/aia2_top_bot.gif) 0 -3px no-repeat;font-size:1%;height:3px}
+.clearing_fmt{clear:both;height:0;min-height:0;visibility:hidden}
+.authEditorCont,.author,.editor{min-height:20px}
+* html .clearing_fmt{height:auto}
+#story{clear:left;float:right;margin:5px;width:260px;font-size:95%!important}
+#Disclaimer,#disclaimerText,#fdaTitle p,#globalFooter,#healthwise,#quizLinks,.results{clear:both}
+#story td{padding:0;margin:0}
+#viewercomments{background:#e7f5fb;border:1px solid #27a2d7;padding:2px 4px;margin:0}
+#viewercomments h2{color:#069;font-size:13px!important;margin:5px 0;padding:0;line-height:16px}
+#viewercomments img{background-color:#fff;border:1px solid #ddd;margin:5px;padding:5px}
+#viewercomments p{line-height:16px;margin:0;padding:5px 0;font-size:100%!important}
+#Keywords_vc{border-top:2px solid #67c0e6;font-size:90%!important;padding:5px 5px 0;margin:5px 5px 0;width:90%}
+* html #Keywords_vc{margin-bottom:0}
+#Keywords_vc h3{color:#069;font-size:95%!important;font-weight:700;margin-bottom:1px;margin-top:0;text-transform:uppercase}
+.from_webmd li a,.from_webmd li a:visited{color:#1f29ad;text-decoration:none}
+.from_webmd li a:hover{color:#1f29ad;text-decoration:underline}
+.sponsorBox_links_wide_fmt{font-size:12px}
+.sponsorBox494_rdr{margin:5px auto;padding-right:0}
+.sponsorBox_right_rdr.sponsorBoxCenterArea{width:470px;margin:5px auto}
+#ContentPane21.eMed #consumerAlert{width:280px;margin:10px 0 0!important}
+#fdaWrapper{width:470px;height:93px;background:url(http://images.medicinenet.com/images/fda-box-mednet-wide.png) no-repeat #fff;margin:15px 0}
+#fdaContainer{display:block;height:93px;width:430px;float:left}
+#fdaTitle p{text-indent:12px;line-height:34px;margin:0;padding:0;font-weight:700}
+#fdaContent{padding:10px 15px 0}
+#fdaContent p{font-size:13px;line-height:18px;margin:0;padding:0}
+.update{width:470px;padding:3px;margin:15px 0 20px;font-size:12px;color:#292929;border:1px solid #617e9b;background-color:#a0cbf5;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+.update p{margin-bottom:0;padding:5px;border:1px solid #fff;background-color:#f9f5ea;font-size:10px;line-height:12px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+.update span{color:#394a5b;font-size:11px;text-decoration:underline}
+#AP_pics{width:470px;margin-bottom:20px}
+.AP_Rotator_pics_container_content{width:149px;height:137px;text-align:left;float:left;background-repeat:no-repeat;border-right:1px #e8e8e8 solid;margin-right:9px}
+.AP_Rotator_pics_container_content.slideAP{background:url(http://images.emedicinehealth.com/images/article_promo_bg_slide.gif) left top no-repeat}
+.AP_Rotator_pics_container_content.illAP{background:url(http://images.emedicinehealth.com/images/article_promo_bg_image.gif) left top no-repeat}
+.AP_Rotator_pics_container_content.featureAP{background:url(http://images.emedicinehealth.com/images/article_promo_bg_feature.gif) left top no-repeat}
+.AP_Rotator_pics_container_content.last{margin-right:0;border-right:none}
+.AP_Rotator_pics_content{width:140px}
+.AP_Rotator_pics_content p{margin-top:4px}
+.AP_Rotator_pics img{display:block;height:79px;width:117px;margin:17px 0 3px 11px;border:1px solid #9ab}
+p.AP_Rotator_titles{font-size:12px;font-weight:700;color:#669;padding:0 11px;line-height:14px}
+p.AP_Rotator_titles a,p.SS_Rotator_titles a:visited{text-decoration:none;color:#669;font-size:12px;font-weight:700}
+p.AP_Rotator_titles a:hover,p.AP_Rotator_titles a:visited a:hover{text-decoration:underline;color:#669;font-size:12px;font-weight:700}
+p.AP_Rotator_desc{font-size:10px;color:#333;margin-left:11px;line-height:13px}
+#featurewidget{width:300px;margin:0 0 0 3px}
+#featurewidget a,#featurewidget a:visited{color:#004276;text-decoration:none}
+#featurewidget a:hover{color:#004276;text-decoration:underline}
+#featurewidgetrightcoltop{background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/featurewidgetrightcoltop.gif);background-repeat:no-repeat;width:300px;height:25px}
+#featurewidgetrightcoltop h1{font-weight:700;margin:0 0 0 4px;padding:3px 0 0 3px;font-size:11px;line-height:18px}
+#featurewidgetrightcolbg{background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/featurewidgetrightcolbg.gif);background-position:left bottom;background-repeat:no-repeat;background-color:#fff;width:296px;border-left:2px #ccc solid;border-right:2px #ccc solid}
+#featurewidgetrightcolbg h2{margin:0;font-size:12px;font-family:Georgia,sans-serif;color:#004276;padding:3px 0 0 3px}
+#featurewidgetrightcolbg p{padding:5px 0 10px 10px;margin:0;font-size:11px;line-height:18px}
+#featurewidgetrightcolbg ul{margin:0;padding:10px 0 10px 25px}
+#featurewidgetrightcolbg ul li{margin:0;padding:2px 0}
+#featurewidgetrightcolbottom{background-image:url(http://images.emedicinehealth.com/images/emedicinehealth/featurewidgetrightcolbottom.gif);background-repeat:no-repeat;height:6px;width:300px}
+#featurewidgetrightcolbg p.more{text-align:right;padding:5px 20px 0 0;border-top:1px #ccc dashed;font-weight:700;width:265px;margin:0 0 0 5px}
+#genericAIAblue,#genericAIAgreen,#genericAIAtan{font-family:Arial,Helvetica,sans-serif;width:260px;float:right;margin:10px 0 10px 10px;padding:0}
+#genericAIAgreen #genericAIATop{width:260px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/genericaia_bg_green.jpg) left top no-repeat #fff}
+#genericAIAblue #genericAIATop{width:260px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/genericaia_bg_blue.jpg) left top no-repeat #fff}
+#genericAIAtan #genericAIATop{width:260px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/genericaia_bg_tan.jpg) left top no-repeat #fff}
+#genericAIATop h2,#genericAIATop h3{font-size:18px;font-family:Corbel;color:#fff;padding:7px 30px 5px 7px;margin:0}
+#genericAIAtan #genericAIATop h2,#genericAIAtan #genericAIATop h3{font-size:18px;font-family:Corbel;color:#596e84;padding:7px 30px 5px 7px;margin:0}
+#genericAIAblue #genericAIAContent h3,#genericAIAgreen #genericAIAContent h3,#genericAIAtan #genericAIAContent h3{font-size:12px;padding:10px 10px 0;margin:0;font-weight:700}
+#genericAIAgreen #genericAIAContent{width:258px;border:1px solid #9ece6b;background-color:#f1fee1;margin:0;padding:0 0 15px}
+#genericAIAblue #genericAIAContent{width:258px;border:1px solid #27a2d7;background-color:#e7f5fb;margin:0;padding:0 0 15px}
+#genericAIAtan #genericAIAContent{width:258px;border:1px solid #babdbf;background-color:#fff;margin:0;padding:0 0 15px}
+#genericAIAgreen #genericAIAContent h3{color:#437013}
+#genericAIAblue #genericAIAContent h3{color:#00304f}
+#genericAIAtan #genericAIAContent h3{color:#292929}
+#genericAIAContent ol,#genericAIAContent ul{font-size:11px;margin-right:5px}
+#genericAIAContent p.genericAIALink{text-align:left;margin:0;padding:10px 0 0 8px;font-size:14px}
+#genericAIAContent p.genericAIALink a:link,#genericAIAContent p.genericAIALink a:visited{color:#3a46dc;text-decoration:none;font-weight:700}
+#genericAIAContent p a:hover,#genericAIAContent p.genericAIALink a:hover,#medAnatomyCollectionExcerpt a:hover{text-decoration:underline}
+#genericAIAContent p.genericAIAQuestion{margin:0;padding:10px 0 0 10px;font-weight:700;color:#00304f}
+#genericAIAContent p{font-size:11px;line-height:16px;margin:0;padding:10px 10px 0}
+#genericAIAContent a:link,#genericAIAContent a:visited{color:#3a46dc;text-decoration:none;font-weight:700}
+#genericAIAgreen #genericAIAContent img{float:right;margin:5px 0 10px 5px;border:1px solid #9ece6b;padding:2px}
+#genericAIAblue #genericAIAContent img{float:right;margin:5px 0 10px 5px;border:1px solid #27a2d7;padding:2px}
+#genericAIAtan #genericAIAContent img{float:right;margin:5px 0 10px 5px;border:1px solid #babdbf;padding:2px}
+#genericAIAgreen #genericAIAContent hr{border:1px solid #9ece6b;margin:10px auto;width:245px}
+#genericAIAblue #genericAIAContent hr{border:1px solid #27a2d7;margin:10px auto;width:245px}
+#genericAIAtan #genericAIAContent hr{border:1px solid #babdbf;margin:10px auto;width:245px}
+#genericAIAgreen #genericAIABottom{width:260px;height:5px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/genericaia_bg_green.jpg) center bottom no-repeat #fff}
+#genericAIAblue #genericAIABottom{width:260px;height:5px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/genericaia_bg_blue.jpg) center bottom no-repeat #fff}
+#genericAIAtan #genericAIABottom{width:260px;height:5px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/genericaia_bg_tan.jpg) center bottom no-repeat #fff}
+#medAnatomyCollectionWrapper{font-family:Arial,Helvetica,sans-serif;margin:10px 0 0 8px}
+#medAnatomyCollectionTop{background-image:url(http://images.emedicinehealth.com/images/image_collection_top_bg_emh.jpg);background-repeat:no-repeat;width:470px;height:38px}
+#medAnatomyCollectionTop h1{padding:0 0 0 10px;font-size:18px;line-height:38px;color:#18304a}
+#medAnatomyCollectionPicture{width:468px;border:1px solid #6664a3;border-bottom:none;border-top:none;height:318px}
+#medAnatomyCollectionBottom{background-image:url(http://images.emedicinehealth.com/images/image_collection_bottom_black_gradient.gif);background-repeat:repeat-x;width:468px;height:42px;border:1px solid #6664a3;border-bottom:none;border-top:none;position:relative}
+#medAnatomyCollectionBottom h3{font-size:14px;line-height:32px;padding:0 0 0 10px;color:#fff;margin:4px 0 0;float:left}
+#medAnatomyCollectionSources{background-image:url(http://images.emedicinehealth.com/images/image_collection_src_bg_2.gif);background-position:bottom;background-repeat:no-repeat;background-color:#bdcbde;width:450px;padding:5px 10px}
+#medAnatomyCollectionSources p{color:#18304a;font-size:10px;margin:0;padding:0;line-height:12px}
+#medAnatomyCollectionButtons{position:absolute;right:0;top:0}
+#medAnatomyCollectionButtons a{outline:0}
+.medAnatomyCollectionNextButton{margin:9px 10px 0 3px}
+.medAnatomyCollectionPrevButton{float:left;margin-top:9px}
+#medAnatomyCollectionEditorPicks,#medAnatomyCollectionViewerRelated{width:470px;margin:10px 0 0}
+#medAnatomyCollectionExcerpt{width:460px;padding:7px 4px;background-color:#f4f4f4;margin-top:10px;border:1px solid #ddd;-moz-border-radius:5px;border-radius:5px}
+#medAnatomyCollectionExcerpt p{font-size:10pt;margin:0;padding:3px 5px 12px 3px}
+#medAnatomyCollectionExcerpt a{color:#3789bd;text-decoration:none}
+#medAnatomyCollectionViewerRelated h3{margin:0 0 10px;color:#18304a;font-size:14px}
+#medAnatomyCollectionViewerRelatedArea_fmt{font-size:10pt}
+#medAnatomyCollectionViewerRelatedArea_fmt ul{margin-left:20px;padding-left:5px;margin-top:0;margin-bottom:0;padding-bottom:5px}
+.medAnatomyCollectionViewerRelatedList_fmt li{padding:0 0 6px;list-style:url(http://www.emedicinehealth.com/images/bullet_black_circle_3.gif)}
+#medAnatomyCollectionEditorPicks h3{margin:0 0 10px;color:#18304a;font-size:14px}
+#medAnatomyCollectionlinksArea_fmt{font-size:10pt}
+#medAnatomyCollectionlinksArea_fmt ul{margin-left:20px;padding-left:5px;margin-top:0;margin-bottom:0;padding-bottom:5px}
+.medAnatomyCollectionlinksList_fmt li{list-style:url(http://images.emedicinehealth.com/images/bullet_orange_circ09.gif);padding:0 0 6px}
+.imageCollectionlinksList_fmt li a:visited,.medAnatomyCollectionlinksList_fmt li a{color:#3789b9;text-decoration:none}
+.medAnatomyCollectionlinksList_fmt li a:hover{text-decoration:underline}
+.copyNormal .quiz_subheader h3{color:#000;margin:0;font-weight:700;font-size:17px}
+.copyNormal .quiz_subheader h4{color:#000;margin:0;font-weight:400;font-size:90%}
+.copyNormal .quiz_subheader p{color:#000;font-size:90%;margin:2px 0 10px}
+#dailyPick{font-family:Arial,Helvetica,sans-serif;width:300px;margin:10px 0 0 3px;padding:0}
+#dailyPickTop{width:300px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/recommended.jpg) left top no-repeat #fff}
+#dailyPickTop h3{font-size:14px;color:#1c607a;padding:35px 0 5px 53px;margin:0}
+.emhpharm #dailyPickTop h3{color:#1c607a;margin:0;position:relative}
+.emhpharm #dailyPickTop h3 .brandCont,.emhpharm #dailyPickTop h3 .genericCont{float:left}
+.emhpharm #dailyPickTop h3 span.brandTitle,.emhpharm #dailyPickTop h3 span.genericTitle{font-size:11px;text-decoration:underline;font-weight:400;float:left;margin:0 3px 0 0}
+.emhpharm #dailyPickTop h3 .brandNameToggle,.emhpharm #dailyPickTop h3 .genericNameToggle{display:inline-block;width:150px;height:13px;font-size:12px;overflow:hidden}
+.emhpharm #dailyPickTop h3 .brandNameToggle.open,.emhpharm #dailyPickTop h3 .genericNameToggle.open{height:auto;max-height:125px;overflow:auto}
+.emhpharm #dailyPickTop h3 a{position:absolute;right:0;top:0;font-size:11px}
+.emhpharm #dailyPickTop h3 a span{color:#ff974b}
+.emhpharm #dailyPickTop .brandNameDiv{padding:35px 5px 0 53px}
+.emhpharm #dailyPickTop .genericNameDiv{padding:5px 5px 5px 53px}
+.emhpharm #dailyPickTop h3.brandName,.emhpharm #dailyPickTop h3.genericName{padding:0}
+#dailyPickContent{width:298px;border:1px solid #b3d4f5;background-color:#fefcf8;margin:0;padding:0 0 15px}
+#dailyPickContent h3,#dailyPickContent h4{font-size:14px;margin:0;padding:10px 0 0 10px;font-weight:700;color:#00304f}
+#dailyPickContent ol,#dailyPickContent ul{font-size:11px;margin-right:5px}
+#dailyPickContent p.dailyPickLink{text-align:left;margin:0;padding:10px 0 0 8px;font-size:14px}
+#dailyPickContent p.dailyPickLink a:link,#dailyPickContent p.dailyPickLink a:visited{color:#3a46dc;text-decoration:none;font-weight:700}
+#dailyPickContent p a:hover,#dailyPickContent p.dailyPickLink a:hover,#globalFooter a:hover,#rtRailPromoLearnMore a:hover{text-decoration:underline}
+#dailyPickContent p.dailyPickQuestion{margin:0;padding:10px 0 0 10px;font-weight:700;color:#00304f}
+#dailyPickContent p{font-size:12px;line-height:18px;margin:0;padding:8px 10px 0}
+#dailyPickContent a:link,#dailyPickContent a:visited{color:#3a46dc;text-decoration:none;font-weight:700}
+#dailyPickBottom{width:300px;height:10px;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/todays-feature-6.gif) center bottom no-repeat #fff}
+#recommendedTopics{width:300px;margin:10px 0;padding:0}
+#recommendedTopics h2{background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/also-on-emedicinehealth-bg.gif) top left no-repeat;color:#4f667e;font-family:"Century Gothic",Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;margin:0;padding:5px 0 5px 37px;text-transform:none}
+#recommendedTopics ul{font-size:12px;margin:0;padding:0 0 0 30px}
+#recommendedTopics ul li{list-style-type:none;background:url(http://images.emedicinehealth.com/images/bullet_arrow_06_blue.gif) no-repeat;padding:2px 0 2px 11px}
+#rtRailPromoPet{width:300px;height:125px;background:url(http://images.emedicinehealth.com/images/rt-rail-promo-cat-dog.jpg) left top no-repeat;position:relative;margin:0 0 0 3px}
+#rtRailPromoPetLink{position:absolute;width:130px;height:85px;top:26px;left:6px;z-index:2}
+#rtRailPromoPetLink a{outline:0}
+#rtRailPromoPetContentEmed{position:absolute;width:300px;height:125px;z-index:1}
+#rtRailPromoPetContentEmed h3{font-size:16px;margin:0;padding:5px 0 0 10px;color:#617e9b}
+#rtRailPromoPetContentEmed p{margin:2px 0 0;padding:0 0 0 145px;color:#617e9b;font-size:14px}
+#rtRailPromoPetContentEmed ul{list-style:none;margin:0;padding:2px 0 0 150px;font-size:12px;color:#09f;font-weight:700}
+#rtRailPromoPetContentEmed ul li{background:url(http://images.emedicinehealth.com/images/rt_rail_promo_bullet_emed.gif) left 7px no-repeat;margin:2px 0;padding:0 0 0 7px}
+#rtRailPromoPetContentEmed ul a:link,#rtRailPromoPetContentEmed ul a:visited{color:#09f;text-decoration:none;outline:0}
+#rtRailPromoPetContentEmed ul a:hover{color:#006fb9;text-decoration:underline}
+#rtRailPromoLearnMore{position:absolute;bottom:4px;left:40px;color:#526737;font-size:10px;font-weight:700}
+#rtRailPromoLearnMore a:link,#rtRailPromoLearnMore a:visited{color:#526737;text-decoration:none;outline:0}
+#footer{width:1000px;margin:10px auto;padding:0}
+#footerContent{width:1000px;margin:0;padding:0}
+#globalFooter{float:left;width:958px;padding:20px 0 5px;text-align:center;margin:0 0 0 22px;font-size:12px!important;color:#617e9b;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/footer_shadow.jpg) center top no-repeat}
+#globalFooter a,#globalFooter a:visited{text-decoration:none;color:#1f29ad;padding:0 10px}
+#globalFooter a:hover{color:#1f29ad}
+#footerShadowBottom{margin:0;padding:0;width:100%;height:20px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/footer_shadow_bottom.jpg) center bottom no-repeat}
+#WebMD{margin:0 0 10px;padding:0}
+#Disclaimer{margin:0;float:left;width:975px;font-size:10px!important;padding:0 0 0 10px}
+#badges,.adChoice,.honCode,.trustE{float:right}
+#badges{padding:10px 0 5px}
+.honCode{margin:0 25px 0 0}
+.trustE{margin:7px 20px 0 0}
+.adChoice{margin:0 5px 0 0}
+.adChoice a{display:block;background:url(http://images.emedicinehealth.com/images/footer/badges/logo_adchoices.png) right center no-repeat #fff;color:#000!important;text-decoration:none;font-size:11px;padding:0 15px 0 0;line-height:60px}
+#imageCategories h4 a:hover,#quizLinks ul li a:hover,.adChoice a:hover{text-decoration:underline}
+.adChoice a:hover{color:#3a46dc}
+#copyRight{float:left;padding:31px 0 0 15px;font-size:10px!important}
+#disclaimerText{float:left;text-align:left;margin-left:5px;width:970px;padding:0}
+#imageGallery{width:470px;margin:0;padding:0}
+#imageGallery h3{border-bottom:1px solid #292929;padding-bottom:2px;font-size:16px;margin:10px 0}
+#imageGalleryCoverFlow{width:470px;height:300px;margin:0;padding:0}
+#imageCategories{width:465px;margin:0 0 15px 5px;padding:0;background:url(http://images.emedicinehealth.com/images/emedicinehealth/gfx_camera.gif) left top no-repeat;border-bottom:1px #e4e4e4 dashed}
+#imageCategories a:visited,#imageCategories h4 a:link{text-decoration:none;color:#4f667e}
+#imageCategories h4{margin:0 0 2px 20px;padding:1px 0 0}
+#imageCategories p{margin:0 0 10px 22px;padding:0;color:#333}
+#imageGallery p.imageGalleryDescription{margin:5px 0 0;padding:0;font-size:10px;font-family:Verdana;color:#333}
+.quizAtoZ ul li a,.quizLinks_fmt .alpha{font-family:Verdana,Geneva,Tahoma,sans-serif}
+#promo-pets{color:#fff;height:125px;margin:12px 0 10px 3px;width:300px}
+#promo-pets h3{color:#fff;font-size:130%;margin:0;padding:16px 0 0 14px}
+#promo-pets p{color:#fff;font-size:130%;margin:0;padding:0 0 10px 14px}
+#promo-pets ul{margin:0 0 0 13px;padding:0}
+#promo-pets ul li{float:left;list-style-image:none;list-style-type:none}
+#promo-pets ul li a{background:url(http://images.emedicinehealth.com/images/pet_health/sm_orange_btn.gif) left top no-repeat;color:#fff;display:block;font-weight:700;line-height:20px;margin:0 7px 0 0;padding:0 0 1px;text-align:center;width:48px;text-decoration:none}
+.from_webmd{margin:0}
+#healthwise img{margin:0 0 0 10px;vertical-align:middle}
+#healthwise .warning{font-style:italic;font-size:85%;padding:10px 0 3px}
+#healthwise .copyright{font-size:85%;padding:10px 0 0}
+#quizLanding{margin:0;padding:0}
+#quizLanding h2{color:#4f667e;line-height:30px;margin:0;padding:0 0 0 65px;border-bottom:1px #ccc solid;width:405px;height:30px;background:url(http://images.emedicinehealth.com/images/quiz_icon.jpg) left center no-repeat}
+#featuredQuizHead{margin:10px 0;padding:0;width:470px;background-color:#fff}
+#featuredQuizHead h3{float:left;margin:0;padding:0 0 0 18px;font-size:13px;color:#333;background:url(http://images.emedicinehealth.com/images/quiz-landing-star.png) left top no-repeat}
+#featuredQuizHead #featuredQuiz{clear:both;float:left;padding:0;margin:0 0 5px;position:relative;width:470px;height:160px}
+#featuredQuizHead #featuredQuiz a img{border:none;width:470px;height:160px;position:absolute;top:0;left:0;z-index:1}
+#featuredQuizHead #featuredQuiz #featuredTitle{bottom:1px;height:30px;line-height:30px;left:1px;margin:0;padding:0;position:absolute;width:468px;z-index:2;background:url(http://images.emedicinehealth.com/images/quiz-feature-text-bg.png) left top repeat-x}
+.quizFeaturedImage i,.quizFeaturedImage p{z-index:1;-webkit-transition:all .6s ease-in-out}
+#featuredQuizHead #featuredQuiz #featuredTitle p{margin:0;padding:0 0 0 10px}
+#featuredQuizHead #featuredQuiz #featuredTitle p a{margin:0;text-decoration:none;font-size:16px;color:#1a1a1a;font-weight:700}
+#featuredQuizHead #featuredQuiz #featuredTitle a:hover{text-decoration:none;color:#666}
+#featuredQuizHead p.desc{font-size:12px;line-height:16px;margin:0;padding:0}
+#quizLinks{width:470px;margin:0 0 10px;padding:0}
+#quizLinks h3{margin:0 0 5px;padding:0}
+#quizLinks ul{margin-left:15px;padding-left:5px;margin-top:0;margin-bottom:0;padding-bottom:5px}
+#quizLinks ul li{padding:3px 0}
+#quizLinks ul li a,#quizLinks ul li a:visited{text-decoration:none}
+.quizLandingAtoZ{margin:0;padding:0;width:470px}
+.quizLandingAtoZ h3{font-size:16px;color:#333;margin:0;padding:0}
+.quizLandingAtoZ h3 span{font-weight:400;display:block;margin:10px 0 3px;font-size:11px;color:#666}
+.quizLinks_fmt{width:468px;margin:0;padding:0;border:1px solid #ccc;border-top-color:#e1e1e1;border-left-color:#e1e1e1}
+a.quizLink_fmt{margin:0;padding:2px;display:block;border-bottom:1px #eee solid;border-right:1px #eee solid;background:url(http://images.emedicinehealth.com/images/quizlinks_arrow.png) 440px center no-repeat;height:50px;width:463px;text-decoration:none;outline:0}
+.quizLinks_fmt .alpha a,.quizLinks_fmt .alpha a:hover{text-decoration:underline;color:#03c}
+a.quizLink_fmt:hover{background-color:#f6f6f6}
+.quizLink_fmt img{float:left;margin:0 10px 0 0;width:50px;height:50px;border:0}
+.quizLink_fmt h3{margin:2px 0 0;padding:0;font-size:12px;color:#333}
+.quizLink_fmt p{font-size:11px;line-height:12px;margin:3px 0 0;padding:0 55px 0 0;color:#666}
+.quizLinks_fmt .alpha{font-size:11px;line-height:12px;color:#354555;background-color:#a0cbf5;padding:1px 5px;font-weight:700;border-bottom:1px #e1e1e1 solid}
+.quizLinks_fmt .alpha a{font-weight:400;font-size:9px;outline:0;margin:0 0 0 430px}
+.quizAtoZ{width:470px;margin:0 0 10px;padding:5px 0;border-top:1px solid #e1e1e1;text-align:center}
+.quizAtoZ ul{margin:0 0 0 10px;padding:0}
+.quizAtoZ ul li{list-style:none;display:block;float:left;padding:0;margin:0}
+.quizAtoZ ul li a{display:block;float:left;border-right:1px #e1e1e1 solid;margin:0;padding:0 4px;font-size:11px;font-weight:700;color:#03c;text-decoration:none;outline:0}
+.quizAtoZ ul li a:hover{text-decoration:underline;background-color:#f1f1f1}
+.quizAtoZ ul li a.disable{color:#ccc;cursor:default;font-size:10px}
+.quizAtoZ ul li a:hover.disable{background-color:#fff;text-decoration:none}
+.quizAtoZ ul li a.first{padding:0 4px 0 0}
+.quizAtoZ ul li a.last{border-right:none;padding:0 0 0 4px}
+fieldset.quizNews{border:1px solid #ccc;padding:5px;margin:0;width:460px}
+fieldset.quizNews legend{font-weight:700;font-size:13px;line-height:16px;color:#333}
+fieldset.quizNews a{display:block;height:23px;line-height:23px;color:#fff;background-color:#f90;border:1px solid #ca7900;width:70px;text-align:center;font-size:12px;font-weight:700;float:right;text-decoration:none;margin:5px 0 0 5px}
+fieldset.quizNews a:hover{background-color:#ffab2d;text-decoration:underline}
+fieldset.quizNews p{font-size:11px;margin:0;padding:0}
+.quizFeaturedImage a{display:block;width:470px;height:160px;text-decoration:none;color:#000}
+.quizFeaturedImage{width:470px;height:160px;position:relative;overflow:hidden;font-family:arial,sans-serif;border:0;margin:10px 0;float:left;display:inline}
+.quizFeaturedImage img{border:0}
+.quizFeaturedImage i{display:block;width:468px;height:160px;position:absolute;left:1px;top:130px;background:url(http://images.emedicinehealth.com/images/quiz/quiz_results_icon_info.png) 445px 8px no-repeat #000;filter:alpha(opacity=60);opacity:.6}
+.quizFeaturedImage p{display:block;width:470px;height:160px;position:absolute;left:0;top:130px;background:0 0;font-size:13px;color:#fff;padding:0;margin:0;line-height:16px}
+.quizFeaturedImage p b{display:block;font-size:20px;color:#fff;text-align:left;margin:0;padding:0 0 0 10px;line-height:30px}
+.quizFeaturedImage p span{display:block;padding:10px;line-height:18px}
+.quizFeaturedImage p span span{display:block;line-height:18px;text-align:right;padding:0 5px 0 0}
+.quizFeaturedImage p span span span{color:#0cf;display:inline;font-weight:700}
+.quizFeaturedImage p span span span span{display:inline;color:#f90;font-size:16px;padding:0}
+.quizFeaturedImage a:hover{direction:ltr}
+.quizFeaturedImage a:hover i,.quizFeaturedImage a:hover p{top:35px}
+#pillPharmPromo{width:160px;height:224px;background-color:#c2cfdf;margin:0 0 6px 9px;padding:0;position:relative}
+#pillPharmPromo h2{font-size:16px;margin:0;padding:8px 0 0 13px;color:#fff}
+#pillPharmPromo h4{margin:4px 0;padding:0;font-size:11px;color:#000;line-height:12px}
+#pillPharmPromo p{font-size:9px;margin:0}
+#pillPharmPromo .pill_image{float:right;margin:0;padding:0;width:69px;height:69px}
+#pillPharmPromo .pill_ident{margin:0 0 0 5px;padding:4px 0 0;width:80px}
+#pillPharmPromo .find_pharm{margin:28px 0 0 5px;padding:0;width:140px}
+#pillPharmPromo .find_interaction{margin:28px 0 0 4px;padding:0;width:142px}
+#pillPharmPromo .find_interaction a{padding:4px 0 0 5px}
+#pillPharmPromo .pillPharmPromoContent{background-color:#fff;width:147px;height:191px;margin:2px 0 0 6px;padding:0}
+#pillPharmPromo a{position:absolute;text-align:left;font-size:11px;color:#fff;text-decoration:none;font-weight:700;margin:3px 0 0;padding:3px 0 0 5px}
+#pillPharmPromo a:hover{color:#fff;text-decoration:none!important}
+#pillPharmPromo a.try{width:103px;height:15px;background:url(http://images.medicinenet.com/images/medicinenet/mastersprite.png) -420px -699px no-repeat #fff}
+#pillPharmPromo a.find{width:86px;height:20px;background:url(http://images.medicinenet.com/images/medicinenet/mastersprite.png) -420px -658px no-repeat #fff}
+#pillPharmPromo a.find_inter{width:133px;height:21px;background:url(http://images.medicinenet.com/images/medicinenet/mastersprite.png) -31px -737px no-repeat #fff}
+#pillPharmPromo a span.arrow{float:right;background:url(http://images.medicinenet.com/images/medicinenet/mastersprite.png) -320px -408px no-repeat;width:9px;height:13px;margin:0;padding:0 0 0 12px}
+.results h3{width:470px;border-bottom:1px #ff9800 solid;margin:10px 0 5px}
+.results ul{list-style:none;margin:0 0 0 5px;padding:0;width:463px}
+.results ul li{font-size:12px;list-style-image:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) left no-repeat;text-align:left;margin:0;padding:3px 0;border-bottom:1px dashed #ccc;line-height:20px;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_orange.gif) left no-repeat}
+.results .top{width:470px;font-size:11px;color:#f90;text-align:right;padding:0 10px 0 0;margin:10px 0}
+.articleImage{clear:right;float:right;margin:0 0 10px 10px}
+.articleImage a img{margin:0;padding:0;border:0}
+.articleImage a.articleImageThumb img{border:0;margin:0;padding:0;cursor:url(http://images.emedicinehealth.com/images/cursor/magnify.cur),auto}
+.articleImage a.articleImageThumb:hover img{filter:alpha(opacity=40);-moz-opacity:.4;opacity:.4}
+.articleImage a span{text-indent:-9999px;display:block;height:1px;font-size:1%}
+.articleImage p{text-align:right;font-size:10px;margin:0 0 10px;padding:0}
+#articleLargeImage{background-color:#333;border:0;-moz-border-radius:5px;-webkit-border-radius:5px;padding:10px;z-index:999;-moz-box-shadow:5px 5px 10px -4px #000;-webkit-box-shadow:5px 5px 10px -4px #000;box-shadow:5px 5px 10px -4px #000}
+#articleLargeImage span{color:#fff;text-align:center;display:block;padding:10px 0 3px;font-size:14px;font-weight:700}
+.patientDisc_fmt{width:468px;padding:0;margin:0}
+.patientDisc_fmt.top{background:url(http://images.medicinenet.com/images/emh-viewer-comments-sprite.png) -2px -114px no-repeat;width:469px;height:67px;margin:0;padding:0}
+.patientDisc_fmt.top .title{margin:0;padding:7px 0 0 8px}
+.patientDisc_fmt.top h3.ask{margin:0;padding:9px 0 0 8px!important;font-size:11px!important;border:0!important;letter-spacing:0!important}
+.patientDiscComment h2.subject{margin:0;padding:5px 0 0;font-size:12px;font-weight:700}
+.patientDiscCont{margin:0;padding:0 0 5px}
+.patientDiscCont .SubmitComment_fmt{margin:0 0 0 17px;padding:0;color:#4f667e}
+.patientDiscComment{margin:0 0 0 17px;padding:0}
+.patientDiscComment .quest{margin:8px 0 0 3px;width:440px;padding:0;color:#4f667e;font-size:12px}
+.patientDiscComment .quest .star{margin:3px 4px 0 0;padding:0;float:left;background:url(http://images.medicinenet.com/images/emh-viewer-comments-sprite.png) -2px 0 no-repeat;height:10px;width:11px}
+.patientDisccomment .links .closed_comments{margin:0;padding:15px 0 0;float:left}
+.patientDiscComment .view_comments_button{background:url(http://images.medicinenet.com/images/emh-viewer-comments-sprite.png) 0 -65px no-repeat;height:22px;width:155px;margin:10px 60px 0 0;padding:2px 0 0 13px;float:left}
+.patientDiscComment .view_comments{margin:0;padding:2px 0 0;float:left;color:#fff;font-weight:700}
+.patientDiscComment .view_comments .arrow{float:right;margin:3px 14px 0 0;padding:0;background:url(http://images.medicinenet.com/images/emh-viewer-comments-sprite.png) -2px -17px no-repeat;height:11px;width:9px}
+.patientDiscComment .submit_button_share{background:url(http://images.medicinenet.com/images/emh-viewer-comments-sprite.png) 0 -35px no-repeat;height:22px;width:148px;margin:10px 0 0;padding:2px 0 0 12px;float:left}
+.patientDiscComment .submit_comments{margin:0;padding:2px 0 0;float:left;color:#fff;font-weight:700}
+.patientDiscComment .submit_comments .arrow{float:right;margin:3px 20px 0 0;padding:0;background:url(http://images.medicinenet.com/images/emh-viewer-comments-sprite.png) -2px -17px no-repeat;height:11px;width:9px}
+.question_separate{width:465px;border-bottom:1px #babdbf solid;margin:15px 0 0}
+#patientComments_fmt{width:470px;margin:0;padding:0}
+#patientComments_fmt .commentList{background-color:#f0f0ee;border:1px solid #ddd;padding:5px;margin:0 0 5px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+#patientComments_fmt .commentList .commentTop{background-color:#fff;border:1px solid #ddd;border-bottom-style:dotted;padding:5px;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0}
+#patientComments_fmt .commentList .commentTop .commentFrom{color:#888;display:block;font-size:10px;margin:0;padding:0;float:left}
+#patientComments_fmt .commentList .commentTop .commentDate{color:#888;display:block;font-size:10px;margin:0;padding:0;float:right}
+#patientComments_fmt .commentList .patComment{border:1px solid #ddd;border-top:none;padding:10px;margin:0;background:url(http://images.medicinenet.com/images/patient_discussion/patdisbtmquote.jpg) right bottom no-repeat #fff;-webkit-border-radius:0 0 3px 3px;-moz-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px}
+#patientComments_fmt .commentList .patComment p{font-size:12px;line-height:18px;margin:0;padding:0;background:url(http://images.medicinenet.com/images/patient_discussion/patdistopquote.jpg) left top no-repeat;font-style:italic;text-indent:20px}
+#patientComments_fmt .commentList .suggReading{background-color:#fff;border:1px solid #27a2d7;padding:5px;margin:10px 0 0;position:relative;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;background:-moz-linear-gradient(top,#fff 10%,#d3dfe4 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(10%,#fff),color-stop(100%,#d3dfe4))}
+#patientComments_fmt .commentList .suggReading span.suggReadArrow{display:block;position:absolute;top:-9px;left:7px;background:url(http://images.medicinenet.com/images/patient_discussion/patdisarrow.png) left top no-repeat;width:13px;height:9px}
+#patientComments_fmt .commentList .suggReading p{margin:0;font-size:11px;line-height:16px;text-transform:capitalize;color:#333}
+#patientComments_fmt .commentList .suggReading p a{text-decoration:none}
+#articleInArticle a:hover,#patientComments_fmt .commentList .suggReading p a:hover{text-decoration:underline}
+.vit_fmt{margin:0;padding:0}
+.vit_fmt h2{margin-top:0;padding-right:70px}
+.vit_fmt h4{font-weight:400;font-size:13px;color:#000;margin:10px 0 0}
+.vit_fmt ul{list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+.vit_fmt .Pagination_fmt{margin:5px 0 5px 3px}
+.vit_fmt .Pagination_fmt .pagination_rdr ul li a,.vit_fmt .Pagination_fmt .pagination_rdr ul li a:visited,.vit_fmt .Pagination_fmt .pagination_rdr ul li.selected{padding:0 5px}
+.lrFitPromo{width:160px;height:225px;position:relative;background:url(http://www.medicinenet.com/images/webmd/fit_module_o&o_v03_01.jpg) left top no-repeat;margin:0 0 10px 8px}
+.lrFitPromo a{display:block;position:absolute;left:5px;height:44px;width:150px}
+.lrFitPromo a.juniors{top:59px}
+.lrFitPromo a.kids{top:105px}
+.lrFitPromo a.teen{top:151px}
+.fdbDisclaimer{margin:8px 0 15px;float:left}
+.vitAIA{width:260px;margin:10px 0 10px 10px;padding:1px;float:right;border:1px solid #6c8cab;background-color:#a0cbf5;border-radius:3px}
+.vitAIATitle{background-color:#f9f5ea;margin:0;border:1px solid #fff;font-family:"Century Gothic",Arial,Helvetica,sans-serif;border-radius:3px}
+.vitAIATitle h3{color:#4f667e!important;font-size:14px!important;margin:0!important;line-height:normal!important;padding:5px 5px 4px}
+.vitAIACont{margin:1px 0 0;padding:0;border:1px solid #6c8cab;background-color:#fff;border-radius:3px}
+.vitAIACont p{font-size:12px;line-height:16px;padding:0 5px}
+.vitAIACont ol,.vitAIACont ul{margin:10px 0 10px 20px}
+.vitAIACont ol li,.vitAIACont ul li{font-size:12px;line-height:16px;margin-right:5px}
+.vitAIACont p.vitLinkTitle{margin:0 0 5px;font-weight:700}
+.vitAIACont ul.vitLinks{margin:0;padding:0 5px}
+.vitAIACont ul.vitLinks li{list-style:none}
+.vitAIACont ul.vitLinks li a{text-decoration:underline;font-weight:700}
+.vitAIACont ul.vitLinks li a span.Orange{color:#f68633}
+.vitAIABtm{background-color:#75818d;padding:1px;border:1px solid #515f6e}
+#articleInArticle{width:212px;border:1px solid #617e9b;background-color:#a0cbf5;float:right;margin:15px 3px 10px 10px;padding:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+#articleInArticle a{text-decoration:none}
+#articleInArticle .articleInArticleContentWrap{padding:10px;border:1px solid #fff;background-color:#f9f5ea;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleImg img{width:60px;padding:3px;background-color:#fff;border:1px solid #3e5062;margin:0 0 15px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent{margin:0;padding:0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent h3{font-size:15px;line-height:18px;margin:0 0 15px;color:#4f667e;font-family:"Century Gothic",Arial,Helvetica,sans-serif}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent h4,#articleInArticle .articleInArticleContentWrap .articleInArticleContent h5,#articleInArticle .articleInArticleContentWrap .articleInArticleContent h6{font-size:12px;margin:0 0 5px;color:#222}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent p{font-size:12px;line-height:16px;color:#333;margin:0 0 10px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent ol,#articleInArticle .articleInArticleContentWrap .articleInArticleContent ul{margin:10px 0;padding:0 0 0 20px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent ol{padding:0 0 0 23px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent ol li,#articleInArticle .articleInArticleContentWrap .articleInArticleContent ul li{font-size:12px;color:#444;margin:0 0 3px;padding:0;line-height:16px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent ul li{list-style:circle}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArtcileLink{font-size:12px;font-weight:700;text-align:right}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArtcileLink span{font-size:14px;color:#ff9800}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle,.articleInArticleToggleWrap{margin:5px 0 0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle h5{display:block;background-color:#a0cbf5;border:1px solid #617e9b;padding:3px;color:#162d45;font-weight:400;font-size:12px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;cursor:pointer;margin:0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle h5:hover{border:1px solid #3e5062;color:#fff;-webkit-box-shadow:0 0 2px rgba(0,0,0,.2);-moz-box-shadow:0 0 2px rgba(0,0,0,.2);box-shadow:0 0 2px rgba(0,0,0,.2)}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle h5 span{float:right;margin:0 3px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList{display:none}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList h4{font-size:11px;margin:5px 5px -5px;color:#333}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.list ul li{font-size:11px;line-height:13px;margin:0 0 6px}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.image ul,#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.tag ul{padding:0 5px;overflow:hidden}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.tag ul li{list-style:none;float:left;display:block;margin:0 3px 3px 0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.tag ul li a{border:1px solid #babdbf;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;color:#333;background-color:#fff;display:block;float:left;font-size:11px!important;line-height:14px;margin:0;padding:2px 8px;transition:all .2s ease-out 0;-moz-transition:all .2s ease-out 0;-webkit-transition:all .2s ease-out 0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.tag ul li a:hover{border:1px solid #3e5062;color:#fff;background-color:#617e9b;text-decoration:none}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.image ul li{list-style:none;float:left;padding:0;margin:0 5px 7px 0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.image ul li a{float:left;display:block}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.image ul li a img{width:48px;padding:3px;border:1px solid #babdbf;transition:all .2s ease-out 0;-moz-transition:all .2s ease-out 0;-webkit-transition:all .2s ease-out 0}
+#articleInArticle .articleInArticleContentWrap .articleInArticleContent .articleInArticleToggle .articleInArticleToggleList.image ul li img:hover{border-color:#3e5062}
+.articleLrgImg{clear:right;float:right;margin:0 0 10px 10px;width:212px;border:1px solid #617e9b;background-color:#a0cbf5;padding:3px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+.articleLrgImg a{width:210px;height:190px;overflow:hidden;display:block;border:1px solid #fff;position:relative;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px}
+.articleLrgImg a .articleImgTitle{position:absolute;left:0;top:0;background:#000;width:200px;padding:5px;font-size:12px;color:#ddd;line-height:16px;z-index:1}
+.articleLrgImg a:hover .articleImgTitle{text-decoration:underline}
+.articleLrgImg a img{border:0;margin:-40px 0 0 -40px;padding:0}
+.articleLrgImg a .articleImgExpand{-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;background:#000;position:absolute;z-index:1;bottom:3px;right:3px;color:#ddd;font-size:14px;font-weight:700;text-align:center;width:22px;height:22px;line-height:22px}
+.authEditorPopOut,.authPopOut,.editPopOut{left:0;z-index:1000;-webkit-box-shadow:1px 1px 3px #888;-moz-box-shadow:1px 1px 3px #888}
+.articleLrgImg a .articleImgExpand:hover{color:#ff9800}
+.authEditor{margin:10px 0;padding:0;font-size:12px;line-height:20px}
+.authEditor .medAuthEditTitle{float:left;margin:0 5px 0 0}
+.authEditor .medAuthEditLinks{float:left}
+span.authorLinkWrap.active,span.editorLinkWrap.active{position:relative}
+.authPopOut,.editPopOut{background-color:#fff;border:1px solid #515f6e;border-bottom-width:2px;display:none;padding:10px 10px 30px;position:absolute;top:23px;width:362px}
+.authPopOut .authPopOutArrow,.editPopOut .editPopOutArrow{width:384px;height:9px;background:url(http://images.emedicinehealth.com/images/medicinenet/article_level/related_material/authedit_profile_arrow.jpg) no-repeat #fff;position:absolute;left:-1px;top:-9px}
+.authPopOut .authPopOutCont img,.editPopOut .editPopOutCont img{float:left;margin:0 5px 0 0;border:1px solid #515f6e;padding:4px;width:55px;height:66px}
+.authPopOut .authPopOutCont h3,.editPopOut .editPopOutCont h3{font-size:13px;line-height:18px;margin:0 0 5px}
+.authPopOut .authPopOutCont h5,.editPopOut .editPopOutCont h5{font-size:13px;line-height:18px;margin:0 0 5px;color:#2e3c49}
+.authPopOut .authPopOutCont p,.editPopOut .editPopOutCont p{font-size:12px;line-height:18px;margin:0 0 5px;color:#656565}
+.authPopOut .authPopOutCont .viewFullProfile,.editPopOut .editPopOutCont .viewFullProfile{border-top:1px solid #ccc;bottom:0;display:block;font-size:12px;height:26px;left:0;line-height:28px;margin:0;padding:0 0 0 31px;position:absolute;text-decoration:none;width:351px;background:url(http://images.emedicinehealth.com/images/medicinenet/article_level/related_material/authedit_profile_icon.jpg) 10px 5px no-repeat #eee}
+.authPopOut .authPopOutCont .viewFullProfile:hover,.editPopOut .editPopOutCont .viewFullProfile:hover{text-decoration:underline;color:#03c}
+.authEditorWrap{margin:10px 0;padding:0;font-size:12px;line-height:20px}
+.authEditorWrap .authEditorTitle{float:left;margin:0 5px 0 0;font-size:12px}
+.authEditorWrap .authEditorName{float:left;max-width:335px}
+span.authEditorLinkWrap{font-size:12px}
+span.authEditorLinkWrap.active{position:relative}
+.authEditorLink button.magOnOff{background:url(http://images.medicinenet.com/images/medicinenet/article_level/related_material/authedit_magonoff.png) left top no-repeat;border:0;cursor:pointer;display:inline;height:12px;margin-left:3px;padding-right:0;vertical-align:middle;width:11px;outline:0}
+.authEditorLink button.magOnOff.on,.authEditorLink:hover button.magOnOff{background-position:right top}
+.authEditorPopOut{background-color:#fff;border:1px solid #515f6e;border-bottom-width:2px;display:none;padding:10px 10px 30px;position:absolute;top:23px;width:362px}
+.authEditorPopOut .authEditorPopOutArrow{width:384px;height:9px;background:url(http://images.medicinenet.com/images/medicinenet/article_level/related_material/authedit_profile_arrow.jpg) no-repeat #fff;position:absolute;left:-1px;top:-9px}
+.authEditorPopOut .authEditorPopOutCont{text-align:left}
+.authEditorPopOut .authEditorPopOutCont img{float:left;margin:0 5px 0 0;border:1px solid #515f6e;padding:4px;width:55px;height:66px}
+.authEditorPopOut .authEditorPopOutCont h5{font-size:13px;line-height:18px;margin:0 0 5px;color:#333}
+.authEditorPopOut .authEditorPopOutCont p{font-size:12px;line-height:18px;margin:0 0 5px;color:#656565}
+.authEditorPopOut .authEditorPopOutCont .authEditorViewProfile{border-top:1px solid #ccc;bottom:0;display:block;font-size:12px;height:26px;left:0;line-height:28px;margin:0;padding:0 0 0 31px;position:absolute;width:351px;background:url(http://images.medicinenet.com/images/medicinenet/article_level/related_material/authedit_profile_icon.jpg) 10px 5px no-repeat #eee}
+.authEditorPopOut .authEditorPopOutCont .authEditorViewProfile a{text-decoration:none}
+.authEditorPopOut .authEditorPopOutCont .authEditorViewProfile a:hover{text-decoration:underline;color:#03c}
+table.artTable{border:1px solid #515f6e;border-collapse:collapse;font-size:12px;width:470px;margin:10px 0}
+table.artTable caption{background:#f2f2f2;font-size:18px;border:1px solid #627f9c;border-bottom:none;padding:5px;text-align:center}
+table.artTable td,table.artTable th{border:1px solid #627f9c;border-collapse:collapse;padding:5px}
+table.artTable thead th{background:#a0cbf5;text-align:center}
+table.artTable tbody th{text-align:left;background:#82a2c4;vertical-align:top;color:#fff}
+table.artTable tbody th a,table.artTable tfoot td a{text-decoration:underline;color:#fff}
+table.artTable tfoot td{text-align:right;font-weight:700;background:#627f9c;padding:5px;color:#fff}
+table.artTable tbody td{background:#f9f5ea;vertical-align:top}
+table.artTable tbody tr.odd td{background:#fff}
+table.artTable tbody td ul{margin:5px 0 5px 10px}
+table.artTable tbody td ul li{font-size:12px!important;line-height:14px!important;list-style:disc!important}
+.authorRelated{border:1px solid #627f9c;margin:20px 0 0;-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0}
+.authorRelated h2{background:#a0cbf5;color:#354555;font-size:13px;margin:0;padding:5px 5px 5px 10px;border-bottom:#627f9c 1px solid}
+.authorRelated .authorArticles{max-height:350px;overflow:hidden;height:200px;padding:5px 0}
+.authorRelated .hidden{display:none}
+div.expand{background:#f9f5ea;padding:3px 10px;border-color:transparent #627f9c #627f9c;border-width:1px;border-style:solid;margin:0 0 20px;-moz-border-radius:0 0 3px 3px;-webkit-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px}
+div.expand a.more{font-size:10px!important;color:#354555!important;text-decoration:none}
+div.expand a.more:hover{text-decoration:underline}
+div.expand span.arrow{font-size:0;line-height:0;width:0;display:inline-block;margin:5px 5px 0 0;float:left;border-width:4px 4px 0;border-color:#f96 #f9f5ea transparent;border-style:solid}
+div.expand span.arrow.up{border-width:0 4px 4px;border-color:transparent #f9f5ea #f96;border-style:solid}
+.authorRelated ul{font-size:12px;margin:0 0 0 20px;padding:0 0 0 20px}
+.authorRelated li{list-style:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif);padding:0;margin:0 0 3px}
+#faqContent .faqAnswers .faqAnsCont ul li,#faqContent .faqBookmarkLinks ul li{list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+.quizStat{background:url(http://images.emedicinehealth.com/images/artpromochunk/quiz_count_bg.jpg) no-repeat;width:137px;height:22px;position:relative;display:inline-block;vertical-align:middle}
+.quizStat .quizStatCount,.quizStat .quizStatScore{position:absolute;top:2px;height:18px;text-align:center;line-height:18px;font-size:9px;color:#000;font-weight:700}
+.faqCont .faqContImg a,.faqCont span,.quizStat .quizStatScore{display:block}
+.quizStat .quizStatCount{left:28px;width:26px;display:block}
+.quizStat .quizStatScore{left:62px;width:31px}
+#faqPromo{margin:0 0 20px;background-color:#f9f5ea;border:1px solid #babdbf;position:relative;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+.faqCont{padding:6px}
+.faqCont .faqContImg{float:left;padding:3px;border:1px solid #c9ced0;background-color:#fff;margin:0 10px 0 0}
+.faqCont .faqContImg:hover{border-color:#333}
+.faqCont .faqContImg img{width:79px;height:79px;border:1px solid #eed}
+.faqCont span.faqContTitle{font-size:17px;color:#333;margin:8px 0 5px}
+.faqCont span.faqContTag{font-size:13px;line-height:19px;color:#666}
+#faqContent{padding:0;margin:0 0 30px;width:470px;overflow:hidden}
+#faqContent.readList{display:none}
+#faqContent a.backTo{margin:0 0 10px;display:inline-block;font-size:12px;text-decoration:none}
+#faqContent a.backTo span{color:#ff9800;font-size:14px}
+#faqContent a.backTo:hover{text-decoration:underline}
+#faqContent h2{font-size:22px;color:#4f667e;font-weight:700;line-height:22px;margin:0 0 5px;padding:0}
+#faqContent h4{color:#666;font-size:25px;font-weight:400;margin:0 0 5px}
+#faqContent span.faq-reviewed p{font-size:12px;line-height:14px;color:#666;display:block;margin:0 0 20px}
+#faqContent span.faq-source{color:#444;padding:10px 0 20px;display:block;font-size:11px}
+#faqContent h3{background-color:#f4f4f4;padding:10px;font-size:13px;margin:0 0 20px;color:#333}
+#faqContent .faqBookmarkLinks{margin:0 0 25px;padding:0}
+#faqContent .faqBookmarkLinks ul{margin:10px 10px 0 20px;padding:0}
+#faqContent .faqBookmarkLinks ul li{margin:0 0 5px;padding:0;color:#444;font-size:13px}
+#faqContent .faqBookmarkLinks ul li a{font-size:13px;line-height:18px;text-decoration:none}
+#faqContent .faqBookmarkLinks ul li a:hover{text-decoration:underline}
+#faqContent .faqBookmarkLinks ul li a:visited{color:#906}
+#faqContent .faqBookmarkLinks ul li a.star{background:url(http://images.emedicinehealth.com/images/faq/faq-star-12-2.png) right 2px no-repeat;padding:0 15px 0 0}
+#faqContent .faqAnswers{margin:0;padding:0;float:left;overflow:visible}
+#faqContent .faqAnswers .faqAnsCont{padding:20px 5px 15px;margin:0;border-top:1px #dedede solid;overflow:hidden;position:relative;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;-ms-transition:all .5s ease}
+#faqContent .faqAnswers .faqAnsCont.starCont{background:-moz-linear-gradient(top,#f9f9f9 0,#fff 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f9f9f9),color-stop(100%,#fff));background:-webkit-linear-gradient(top,#f9f9f9 0,#fff 100%);background:-ms-linear-gradient(top,#f9f9f9 0,#fff 100%);background:linear-gradient(top,#f9f9f9 0,#fff 100%)}
+#faqContent .faqAnswers .faqAnsCont:target{padding:20px 10px 15px;background:#fefcf8!important;border:1px solid #fab082;margin:5px 0 -1px;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;position:relative;z-index:1;-webkit-box-shadow:0 0 4px -1px rgba(0,0,0,.3);-moz-box-shadow:0 0 4px -1px rgba(0,0,0,.3);box-shadow:0 0 4px -1px rgba(0,0,0,.3)}
+#faqContent .faqAnswers .faqAnsCont h4{font-size:16px;line-height:20px;color:#333;margin:0 0 15px;font-weight:700}
+#faqContent .faqAnswers .faqAnsCont h4 span.q{color:#f68633;margin:0 5px 0 0;float:left}
+#faqContent .faqAnswers .faqAnsCont h4 span.ques{color:#333}
+#faqContent .faqAnswers .faqAnsCont span.star{background:url(http://images.emedicinehealth.com/images/faq/faq-star-16-2.png) center center no-repeat #f9f9f9;position:absolute;right:5px;top:0;display:block;width:16px;height:16px;padding:5px 3px;border:1px solid #ddd;border-top:none}
+#faqContent .faqAnswers .faqAnsCont .faqAnsImgWrap{width:110px;height:70px;border:1px solid #dedede;padding:2px;background-color:#fff;overflow:hidden;float:left;margin:0 20px 10px 0}
+#faqContent .faqAnswers .faqAnsCont .faqAnsImgWrap span{width:110px;height:70px;display:block;overflow:hidden}
+#faqContent .faqAnswers .faqAnsCont .faqAnsImgWrap img{height:70px;margin:0 0 0 -55px}
+#faqContent .faqAnswers .faqAnsCont .faqAnsImgWrap img.spec{height:113px;margin:-25px 0 0}
+.faqBody{display:table-cell;vertical-align:top}
+#faqContent .faqAnswers .faqAnsCont p{font-size:14px;line-height:20px;color:#444}
+#faqContent .faqAnswers .faqAnsCont p span.a{color:#f68633;margin:0 5px 0 0;font-weight:700;float:left;font-size:16px}
+#faqContent .faqAnswers .faqAnsCont ol li,#faqContent .faqAnswers .faqAnsCont ul li{color:#444;font-size:13px;line-height:20px}
+#faqContent .faqAnswers .faqAnsCont ol,#faqContent .faqAnswers .faqAnsCont ul{margin:10px 0 10px 30px;padding:0}
+.artPCLinks ol li,.artPCLinks ol li.noBull,ul.tocBullet li.noBull{list-style:none}
+#faqContent .faqAnswers .faqAnsCont ol li a,#faqContent .faqAnswers .faqAnsCont ul li a{text-decoration:none}
+#faqContent .faqAnswers .faqAnsCont ol li a br,#faqContent .faqAnswers .faqAnsCont ul li a br{display:none}
+#faqContent .faqAnswers .faqAnsCont ol li a:hover,#faqContent .faqAnswers .faqAnsCont ul li a:hover{text-decoration:underline}
+#faqContent .faqAnswers .faqAnsCont a.backToTop{float:right;font-size:10px;text-decoration:none;display:inline-block;padding:3px 10px;border:1px solid transparent;line-height:16px}
+#faqContent .faqAnswers .faqAnsCont a.backToTop:hover{text-decoration:underline;border-color:#dedede;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;background:-moz-linear-gradient(top,#f9f9f9 0,#fff 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#f9f9f9),color-stop(100%,#fff));background:-webkit-linear-gradient(top,#f9f9f9 0,#fff 100%);background:-ms-linear-gradient(top,#f9f9f9 0,#fff 100%);background:linear-gradient(top,#f9f9f9 0,#fff 100%)}
+#pill_identifier{font-size:12px;border:1px solid #999;width:470px;margin:15px 0}
+#pill_identifier img{float:left;margin:0 10px 0 80px}
+#pill_identifier p{margin:10px 0 0;padding:0;font-size:13px;line-height:18px}
+ul.tocBullet{margin:0 0 0 20px;padding:0 0 0 10px}
+ul.tocBullet li{margin:0 0 5px!important;font-size:13px;line-height:18px}
+ul.tocBullet li.noBull a.tocIcon{margin:0 0 0 -14px;padding:0 0 0 25px;display:inline-block;line-height:20px}
+ul.tocBullet li.noBull a.slide{background:url(http://images.emedicinehealth.com/images/toc/icon_slideshow.gif) no-repeat #fff}
+ul.tocBullet li.noBull a.quiz{background:url(http://images.emedicinehealth.com/images/toc/icon-iq.gif) no-repeat #fff}
+ul.tocBullet li.noBull a.image{background:url(http://images.emedicinehealth.com/images/toc/icon-camera.gif) no-repeat #fff}
+ul.tocBullet li.noBull a.faq{background:url(http://images.emedicinehealth.com/images/toc/faqs-icon.png) no-repeat #fff}
+ul.tocBullet li.noBull a.pc{background:url(http://images.emedicinehealth.com/images/toc/comments-icon.png) no-repeat #fff}
+ul.tocBullet li.noBull a.local{background:url(http://images.emedicinehealth.com/images/toc/local-icon.png) no-repeat #fff}
+ul.tocBullet li.noBull a.ans{background:url(http://images.emedicinehealth.com/images/toc/answers-icon.png) no-repeat #fff}
+#artPromoCunk{margin:20px 0}
+.artPCImg{float:left;margin:0 10px 0 0}
+.artPCImg a{border:1px solid #dedede;padding:2px;display:block}
+.artPCImg a:hover{border-color:#333}
+.artPCImg a img{display:block;border:0}
+.artPCLinks{margin:0;padding:0;display:table-cell}
+.artPCLinks ol{margin:0!important;padding:0!important}
+.artPCLinks ol li{margin:0 0 8px!important;padding:0!important}
+.artPCLinks ol li:first-child{margin-top:2px}
+.artPCLinks ol li:last-child{margin:0}
+.artPCLinks ol li a{font-size:13px;line-height:20px;display:inline-block;padding:0 24px 0 0}
+.artPCLinks ol li a.slide{background:url(http://images.emedicinehealth.com/images/toc/icon_slideshow.gif) right 0 no-repeat #fff}
+.artPCLinks ol li a.quiz{background:url(http://images.emedicinehealth.com/images/toc/icon-iq.gif) right 2px no-repeat #fff}
+.artPCLinks ol li a.image{background:url(http://images.emedicinehealth.com/images/toc/icon-camera.gif) right -1px no-repeat #fff}
+#ITA_bg ul a.tocIcon{padding:2px 5px 6px 26px}
+#ITA_bg ul a.slide{background:url(http://images.emedicinehealth.com/images/toc/icon_slideshow.gif) 2px 2px no-repeat}
+#ITA_bg ul a.quiz{background:url(http://images.emedicinehealth.com/images/toc/icon-iq.gif) 2px 4px no-repeat}
+#ITA_bg ul a.image{background:url(http://images.emedicinehealth.com/images/toc/icon-camera.gif) 2px 2px no-repeat}
+#ITA_bg ul a.faq{background:url(http://images.emedicinehealth.com/images/toc/faqs-icon.png) 2px 4px no-repeat}
+#ITA_bg ul a.pc{background:url(http://images.emedicinehealth.com/images/toc/comments-icon.png) 2px 4px no-repeat}
+#ITA_bg ul a.local{background:url(http://images.emedicinehealth.com/images/toc/local-icon.png) 2px 4px no-repeat}
+#ITA_bg ul a.ans{background:url(http://images.emedicinehealth.com/images/toc/answers-icon.png) 2px 4px no-repeat}
+#ITA_bg ul a.tocIcon:hover{background-color:#ece9e1}
+.newsArchive{font-weight:700;font-style:italic;float:left}
+#emhforum{width:480px}
+#emhforum .region1 .header_desc a,#emhforum .region1 .header_med a,#emhforum .region1 .header_topics a,#emhforum .region2 .header_desc a,#emhforum .region2 .header_med a,#emhforum .region2 .header_topics a,#emhforum .region3 .header_desc a,#emhforum .region3 .header_med a,#emhforum .region3 .header_topics a,#emhforum .region4 .header_desc a,#emhforum .region4 .header_med a,#emhforum .region4 .header_topics a{font-weight:700;font-size:12px}
+#emhforum .region1 .header_desc{margin:10px 0 0}
+#emhforum .region1 .header_med,#emhforum .region1 .header_topics,#emhforum .region2 .header_med,#emhforum .region2 .header_topics,#emhforum .region3 .header_med,#emhforum .region3 .header_topics,#emhforum .region4 .header_med,#emhforum .region4 .header_topics{padding:0 0 20px}
+#emhforum .region2 .header_med span{font-weight:400}
+#emhforum .region1 .header_med:after,#emhforum .region1 .header_topics:after,#emhforum .region2 .header_med:after,#emhforum .region2 .header_topics:after,#emhforum .region3 .header_med:after,#emhforum .region3 .header_topics:after,#emhforum .region4 .header_med:after,#emhforum .region4 .header_topics:after{content:".";visibility:hidden;display:block;height:0;clear:left}
+#emhforum .region1 .header_med img,#emhforum .region1 .header_topics img,#emhforum .region2 .header_med img,#emhforum .region2 .header_topics img,#emhforum .region3 .header_med img,#emhforum .region3 .header_topics img,#emhforum .region4 .header_med img,#emhforum .region4 .header_topics img{height:79px;float:left}
+#emhforum .expertviews{width:480px;margin:-5px 0 10px;padding:5px;-moz-column-count:2;-moz-column-gap:20px;-webkit-column-count:2;-webkit-column-gap:20px;column-count:2;column-gap:20px}
+#emhforum #expertwrapper{margin:0 auto;padding:5px;width:460px}
+#emhforum #tiles{margin:10px 0 0}
+#emhforum #tiles .clear_both{clear:both}
+#emhforum #tiles .overclear{margin:0 0 -20px;width:100%;overflow:hidden}
+#emhforum #tiles ul.displayPortrait{margin:0;padding:0}
+#emhforum #tiles ul.displayPortrait li{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;display:none;position:relative;padding:4px 20px 44px 18px;margin:0;z-index:1;visibility:visible;overflow:hidden;width:80px;height:130px;border:1px solid transparent;float:left}
+#emhforum #tiles ul.displayPortrait li:hover{border-color:#babdbf;background-color:#f9f5ea}
+#emhforum #tiles ul.displayPortrait li.loader{display:block;float:none;width:280px;border:none;margin:0;padding:0;background:url(http://images.emedicinehealth.com/images/slideshow/slideshow_landing/slidelandloader.gif) center center no-repeat}
+#emhforum #tiles ul.displayPortrait li .thumb_container{margin:10px 0 5px;padding:0}
+#emhforum #tiles ul.displayPortrait li .thumb_container a.thumb{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;margin:0;padding:0;width:79px;height:79px}
+#emhforum #tiles ul.displayPortrait li .thumb_container a.thumb:hover{border-color:#617e9b}
+#emhforum #tiles ul.displayPortrait li .thumb_container a.thumb img{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #ddd;padding:2px}
+#emhforum #tiles ul.displayPortrait li .tileContent{margin:0;padding:0}
+#emhforum #tiles ul.displayPortrait li .tileContent h3.title{font-size:10px;line-height:11px;text-transform:uppercase;color:#333;margin:0;padding:0}
+#emhforum #tiles ul.displayPortrait li .tileContent p.desc{margin:4px 0 0;padding:0;font-size:8pt;color:#666;line-height:1.7em}
+#emhforum #forum_nav{-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;border:2px solid #90b8de;clear:both;float:right;font-size:11px!important;margin:0 2px 10px;padding:4px 0 4px 4px;width:215px;background:#fff}
+#emhforum #forum_nav h3{color:#4f667e;font-size:12px;margin:0;padding:7px 0 7px 3px;line-height:1.3em}
+#emhforum #forum_nav ul{background:0 0;margin:0;padding:0 3px}
+#emhforum #forum_nav ul li{list-style:none;margin:1px 0;padding:0}
+#emhforum #forum_nav ul li a{border-bottom:1px dashed #ccc;text-decoration:none;background:url(http://images.emedicinehealth.com/images/emedicinehealth/arrow_blue.jpg) 0 4px no-repeat;display:block;line-height:1.1em;margin:0;padding:2px 0 2px 11px}
+#emhforum #forum_nav ul li a:hover{text-decoration:underline;font-weight:400}
+#emhforum #forum_nav ul li.selected a{font-weight:700;color:#f60;margin:0;padding:2px 2px 2px 10px}
+#emhforum .region2 .must_read_articles{min-height:165px}
+#emhforum .topics_guide #forum_nav{margin:-23px 0 0}
+#emhforum .visuals #forum_nav{margin:0}
+#emhforum .medications #forum_nav{margin:2px 0 0 5px}
+#emhforum .related #forum_nav{margin:27px 0 10px 5px}
+#emhforum #forum_nav_bg,#emhforum .medications #forum_nav_bg,#emhforum .topics_guide #forum_nav_bg,#emhforum .visuals #forum_nav_bg{background:0 0;width:100%;margin:0;padding:0 0 9px}
+#emhforum .must_read_tocBullet{padding:0 0 10px 10px;margin:0 0 0 20px;min-height:160px;list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+#emhforum .must_read_tocBullet li{line-height:17px;font-size:13px;margin:0 0 5px!important;padding:0 0 3px}
+#emhforum .stacked_promo{background:url(http://images.emedicinehealth.com/images/emedicinehealth/promolist_bg_notext.png) right 10px no-repeat;margin:5px 0 20px 5px;width:470px;padding:0}
+#emhforum .stacked_promo .promo_group{clear:both}
+#emhforum .stacked_promo .promo_group img{float:left;margin:0 0 10px 123px}
+#emhforum .stacked_promo h2{color:#4f667e;font-size:140%;font-weight:400;line-height:110%;min-height:30px;width:350px;margin:0;padding:10px 0 4px}
+#emhforum .stacked_promo h3{clear:both;color:#4f667e;font-size:120%;margin:4px 0 0;padding:4px 0 0}
+#emhforum .stacked_promo ul{margin:0;padding:5px 0 10px 19px;overflow:auto;max-height:355px;list-style:none url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/star_orange.gif)}
+#emhforum .stacked_promo ul.with_image{float:left;padding-left:5px}
+#emhforum .stacked_promo ul li{font-size:90%;line-height:19px;padding:0}
+#emhforum .stacked_promo ul li.no_bullet{background:0 0;padding:0}
+#emhforum .stacked_promo ul li a.expert i{background:url(http://images.emedicinehealth.com/images/emedicinehealth/expert_tag.gif) 1px 1px no-repeat;display:inline-block;height:14px;vertical-align:text-top;width:44px}
+#emhforum .stacked_featured h2 a,#emhforum .stacked_promo h2 a{font-size:.6em}
+#emhforum .read_more{clear:both;color:#f60!important;font-size:11px!important;font-weight:700;margin:5px;text-align:right;padding:10px 0}
+#emhforum .more{margin:0 5px;padding:5px 0;overflow:auto}
+#emhforum .more .more_text{font-size:11px;line-height:16px;font-weight:700;margin:2px 0 0;padding:0;text-align:right}
+#emhforum .more a.more_next_button{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;display:inline-block;border:1px solid #637f9c;font-size:11px;font-weight:700;text-transform:uppercase;padding:3px 8px;margin:0 0 10px 5px;float:right;background:url(http://images.emedicinehealth.com/images/emedicinehealth/redesign/buttons/mainnav-sprite.png) -3px -4px no-repeat #fff;color:#004276}
+#emhforum .more a.more_next_button:hover{background:#f9f5ea;border-color:#a29b86}
+#emhforum .more a.more_next_button:active{box-shadow:0 0 4px #5b5545 inset;-moz-box-shadow:0 0 4px #5b5545 inset;-webkit-box-shadow:0 0 4px #5b5545 inset}
+#emhforum .more a.more_next_button .symbol_next{color:#f60;font-weight:700}
+.imgstrokefloatleft,.imgstrokefloatright{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;border:1px solid #dedede;padding:2px}
+.imgstrokefloatright{margin:-2px 0 0 10px}
+.imgstrokefloatleft{margin:-2px 10px 0 5px}
+.stacked_featured{margin:5px 0 16px 5px;width:470px;overflow:auto;display:inline-block}
+.stacked_featured .feat_desc a{font-weight:700;margin:0 0 2px;font-size:13px}
+.stacked_featured .feat_desc span{display:block}
+.emh_forum{margin:10px 0;padding:0 0 30px;width:468px;border:1px solid #ddd;background-color:#f0f0ee;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+.emh_forum img{border:none}
+.emh_forum .title{margin:6px 0 -7px 9px;padding:0;font-weight:700;font-size:12px!important;color:#000}
+.emh_forum .emh_forum_content{padding:0 0 26px;margin:13px 15px 14px 12px;border:1px solid #ddd;background-color:#fff}
+.emh_forum .emh_forum_content .subject{display:block;margin:8px 0 3px;padding:0;text-decoration:underline;font-weight:700;font-size:13px}
+.emh_forum .emh_forum_content .content_container{margin:0 20px 0 0;padding:0}
+.emh_forum .emh_forum_content .content_container span{font-size:12px!important}
+.emh_forum .emh_forum_content .forum_image_container{margin:8px 10px 0;padding:4px;float:left;border:1px solid #ddd}
+.emh_forum .see_entire,.iccArt{float:right;font-size:12px;text-decoration:none}
+.emh_forum .see_entire{margin:0 15px 0 0;padding:0;font-weight:700}
+.article_archive_image{margin:6px 0 0}
+.iccArt{width:129px;text-align:center;border:1px solid #cae2f9;margin:1px 2px 0;padding:0 0 6px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px}
+.iccArt a{float:left;font-weight:700;padding:10px 0 0 6px}
+.iccArt i{float:left;width:18px;height:18px;display:inline-block;background:url(http://images.emedicinehealth.com/images/module/patient-comments-in-context-driver-sprite.png) no-repeat}
+.iccArt span.header{background-color:#a0cbf5;width:130px;color:#fff;font-weight:700;padding:3px 0;margin:0;display:block;font-size:14px}
+.from_webmd{background:url(http://images.medicinenet.com/images/webmd/from_webmd_top_bot1.png) left bottom no-repeat;padding-bottom:12px;text-align:left;width:300px}
+.from_webmd h3{border:1px solid #b6b6b6;border-top-right-radius:5px;border-top-left-radius:5px;padding:10px 0 10px 10px;margin:0}
+.from_webmd h4{background:url(http://images.medicinenet.com/images/webmd/from_webmd_top_bot1.png) no-repeat;height:0;margin:0;overflow:hidden;padding:26px 0 0}
+.from_webmd h5{color:#000;font-size:108%;margin:0;padding:9px 0 4px}
+.from_webmd h5 span{font-size:90%;font-weight:400}
+.from_webmd ul{list-style:none;margin:0;padding:0 0 0 2px}
+.from_webmd ul li{background:url(http://images.medicinenet.com/images/webmd/li_purple.gif) 0 9px no-repeat;line-height:18px;padding-left:8px}
+.from_webmd .content{background:#fff;border-left:1px solid #b6b6b6;border-right:1px solid #b6b6b6;padding:0 8px}
+.from_webmd.boots h4{background:url(http://images.medicinenet.com/images/webmd/from_bootswebmd_top_bot.png) no-repeat}
+.emh_promo_slideshow{width:470px}
+.emh_promo_slideshow h5{font-size:14px;background:#fff;padding-right:10px;display:inline;color:#000}
+.emh_promo_slideshow hr{margin:-9px 0 15px}
+.emh_promo_slideshow a{text-decoration:none;width:470px;height:335px;background-color:#000;display:inline-block}
+.emh_promo_slideshow img{width:470px;height:305px;margin-top:-88px}
+.emh_promo_slideshow .icon-eye{border-radius:50px;background:#fff;width:100px;position:relative;top:39%;left:36%;padding:6px 15px;background-color:rgba(255,255,255,.8);color:#333}
+.emh_promo_slideshow .icon-eye:before{font-size:32px}
+.emh_promo_slideshow .icon-eye span{font-family:Arial,Helvetica,sans-serif;margin:0 8px;vertical-align:6px;font-size:20px}
+.emh_promo_slideshow .active{opacity:0;filter:alpha(opacity=0);background:#000;background-color:rgba(0,0,0,.8);color:#fff;top:26%;z-index:9999}
+.emh_promo_slideshow .caption{text-align:center;color:#fff;font-style:italic;font-size:16px;padding:2px 6px;width:460px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+a.dictlink,a.imglink,a.quizlink,a.slidelink{padding:0 18px 0 0}
+a.slidelink{background:url(http://images.emedicinehealth.com/images/icons/blue-slideshow-icon-small.png) right 0 no-repeat #fff}
+a.quizlink{background:url(http://images.emedicinehealth.com/images/icons/blue-quiz-icon-small.png) right 0 no-repeat #fff}
+a.imglink{background:url(http://images.emedicinehealth.com/images/icons/blue-image-collection-icon-small.png) right 0 no-repeat #fff}
+a.dictlink{background:url(http://images.emedicinehealth.com/images/icons/blue-dictionary-icon-small.png) right 0 no-repeat #fff}
+#colorbox{position:absolute;z-index:999}
+@media only screen and (max-width:1024px){
+	#wrapper{width:900px}
+}
+
+#miniMenu{display:none;position:fixed;background-color:#fff;width:100%;height:40px;z-index:1000002;transition:all 1s ease;box-shadow:0 0 10px 0 rgba(0,0,0,0.5);-webkit-box-shadow:0 0 10px 0 rgba(0,0,0,0.5)}
+#miniMenu li{list-style:none;float:left;padding:10px 15px 12px;font-weight:600}
+#miniMenu li:hover{border-bottom:#8CB1DA solid}
+#miniMenu li.logo:hover{border-bottom:none}
+#miniMenu li:hover a{text-decoration:none}
+#miniMenu li.logo{opacity:0;display:none;padding:5px 10px;-webkit-transform:scale(0.8);-ms-transform:scale(0.8);transform:scale(0.8);-webkit-transition:opacity .3s ease-in-out,-webkit-transform .3s ease-in-out;transition:opacity .3s ease-in-out,-webkit-transform .3s ease-in-out;transition:transform .3s ease-in-out,opacity .3s ease-in-out;transition:transform .3s ease-in-out,opacity .3s ease-in-out,-webkit-transform .3s ease-in-out}
+#miniMenu li.logo.active{-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1);opacity:1;display:block;-webkit-animation:anim .3s ease-in-out;animation:anim .3s ease-in-out}
+@-webkit-keyframes anim {
+0%{display:none;opacity:.5}
+1%{display:block;opacity:.8;-webkit-transform:scale(0.8);-ms-transform:scale(0.8);transform:scale(0.8)}
+100%{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+}
+@keyframes anim {
+0%{display:none;opacity:0}
+1%{display:block;opacity:.5;-webkit-transform:scale(0.8);-ms-transform:scale(0.8);transform:scale(0.8)}
+100%{opacity:1;-webkit-transform:scale(1);-ms-transform:scale(1);transform:scale(1)}
+}
+#miniMenu .navItems{width:1000px;margin:0 auto;color:#000}
+#miniMenu .navItems a:link,#miniMenu .navItems a:visited{color:#000}
+#loadFirst{width:814px}
+#leftRailBottom{top:190px;width:177px}
+#rightRailBottom{top:190px;width:302px;float:left;margin-right:16px}
+#mastHead{z-index:9980;background-color:#fff}
+#mastHead.sticky #AD_Top_rdr{padding:10px 0;border-bottom:1px solid #c5c5c5;position:fixed;}
+#mastHead.sticky + #content{margin-top:120px;}
+body[data-sticky-left-ad='true'] #leftRailBottom{position:sticky;position:-webkit-sticky;}
+body[data-sticky-right-ad='true'] #rightRailBottom{position:sticky;position:-webkit-sticky;}
+.wmdVideoLinkImg{margin-bottom:20px;display:inline-block;cursor:pointer}
+.wmdVideoLinkImg img{float:left;width:79px;margin-right:10px;-webkit-transition:opacity 200ms;transition:opacity 200ms;border:1px solid #dedede;padding:2px}
+.wmdVideoLinkImg:hover img{opacity:.6;-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"}
+.wmdVideoLinkImg:hover p{text-decoration:underline}
+.wmdVideoLinkImg p:before{content:'';background:url("http://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/video/video_logo.png") no-repeat;background-size:80%;width:167px;height:24px;display:block}
+#MiddleCol .wmdVideoLinkImg p{float:left;font-size:16px!important;color:#333;margin:20px 0 0 0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;width:385px}

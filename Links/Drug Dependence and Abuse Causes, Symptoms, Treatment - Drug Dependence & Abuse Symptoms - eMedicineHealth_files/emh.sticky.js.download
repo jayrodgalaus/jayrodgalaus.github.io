@@ -1,0 +1,59 @@
+$(document).ready(function(){
+	//stickyfill
+	var isLeftAdSticky = $('body').data('sticky-left-ad') === true;
+	var isRightAdSticky = $('body').data('sticky-right-ad') === true;
+	$('#miniMenu').Stickyfill();
+	// $('#mastHead').Stickyfill();
+	if (isLeftAdSticky) {
+		$('#leftRailBottom').Stickyfill();
+	}
+	if (isRightAdSticky) {
+		$('#rightRailBottom').Stickyfill();
+	}
+
+	var stickyBannerAd = true;
+	// Remove Ad banner sticky, change left and right rail sticky top position, reinitialize waypoints for mini-menu.
+    //Changing logic to be 100% sticky for all content types
+	if (1==0) {//(s_articletype != 'emhsli' && s_articletype != 'quiz') {
+		setTimeout(function(){
+			Stickyfill.remove(document.getElementById('mastHead'));
+			$('#mastHead #AD_Top_rdr').css({'position':'initial'}).removeClass('sticky');;
+
+			if (isLeftAdSticky) {
+				Stickyfill.remove(document.getElementById('leftRailBottom'));
+				$('#leftRailBottom').css({'top':40});
+				$('#leftRailBottom').Stickyfill();
+			}
+
+			if (isRightAdSticky) {
+				Stickyfill.remove(document.getElementById('rightRailBottom'));
+				$('#rightRailBottom').css({'top':40});
+				$('#rightRailBottom').Stickyfill();
+			}
+			$('#mastHead').removeClass('sticky');
+			stickyBannerAd = false;
+		},10000);
+	}
+	// end stickyfill 
+	// waypoints
+	var miniMenuWaypoint = $('body').waypoint({
+		handler: function(direction) {
+			if (direction === 'down') {
+				// $('#miniMenu').show();
+				setTimeout(function(){
+					$('#miniMenu .logo').addClass('active');
+				},0);
+				if (stickyBannerAd) {
+					$('#mastHead').addClass('sticky');					
+				}
+			} else {
+				// $('#miniMenu').hide();
+				$('#miniMenu .logo').removeClass('active')
+				if (stickyBannerAd) {
+					$('#mastHead').removeClass('sticky');
+				}
+			}
+		},
+		offset: -90
+	});
+});

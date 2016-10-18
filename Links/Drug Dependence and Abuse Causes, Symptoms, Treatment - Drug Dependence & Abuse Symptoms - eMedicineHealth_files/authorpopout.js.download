@@ -1,0 +1,55 @@
+﻿$(document).ready(function() {
+
+	var timer;
+
+    $('.editorLink,.authorLink,.authEditorLink').each(function() {
+	    $(this).mouseenter(function() {
+	        clearTimeout(timer);                      
+	        var target = this;
+	        timer = setTimeout(function() { 
+	        	displayInfo(target); 
+	        }, 100);
+	    });
+	    $(this).mouseleave(function() {
+		    clearTimeout(timer);
+		    hideInfo(this);	    
+		});
+    });
+
+    // This function is called when the mouse enter's a link
+    function displayInfo(target) {
+	    $(target).find('.authorLinkWrap').addClass('active');
+	    $(target).find('.editorLinkWrap').addClass('active');
+    
+	    $(target).find('.authEditorLinkWrap.previewOn').addClass('active');
+	    $(target).find('.editPopOut,.authPopOut,.authEditorLinkWrap.previewOn .authEditorPopOut').show();
+    }
+    // This function is called when the mouse leaves a link
+    function hideInfo(target) {
+	    $(target).find('.authorLinkWrap').removeClass('active');
+	    $(target).find('.editorLinkWrap').removeClass('active');
+
+	    $(target).find('.authEditorLinkWrap').removeClass('active');
+	    $(target).find('.editPopOut,.authPopOut,.authEditorPopOut').hide();
+    }
+
+	// This function is called when Magnifying Glass is Clicked
+	$('.magOnOff').click(function() {
+		$('.authEditorLinkWrap').toggleClass('previewOn');
+		$('.magOnOff').toggleClass('on');
+		$('.authEditorLinkWrap.previewOn').addClass('active');
+		$(this).closest(".authEditorLink").find(".authEditorPopOut").toggle();
+	});
+});
+
+
+
+
+
+
+
+
+
+
+
+

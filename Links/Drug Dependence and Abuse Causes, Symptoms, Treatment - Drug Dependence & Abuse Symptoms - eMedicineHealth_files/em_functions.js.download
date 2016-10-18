@@ -1,0 +1,78 @@
+function doSearch() {
+	if (document.frm.txtPhrase2) {
+		if (document.frm.txtPhrase1.value != '' || document.frm.txtPhrase2.value != '')
+			document.frm.submit();
+	} else {
+		if (document.frm.txtPhrase1.value != '')
+			document.frm.submit();
+	}
+}
+
+function doTools(strURL) {
+	document.frm.action = strURL;
+	document.frm.operation.value = "process";
+	document.frm.submit();
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function SrchEntry(e) {  //v1.0
+  var k; if (window.event) k = window.event.keyCode; 	else if (e) k = e.which; else return true;
+  if (k == 13) { doSearch(); return false; } else	return true;
+}
+function goToPage(sURL) {
+	eval("location='" + sURL + "'");
+}
+$(document).ready(function(){
+    var $active = $('.icon-eye').clone().insertBefore('#promoImg').addClass('active');
+    $('.emh_promo_slideshow a').on('mouseenter', function(){                
+        $('#promoImg').fadeTo(300, .8);
+        $('.icon-eye').fadeTo(100, 0, function(){
+            $active.fadeTo(200, 1);
+        });                
+    });
+    $('.emh_promo_slideshow a').on('mouseleave', function(){                
+        $('#promoImg').stop( true, false ).fadeTo(300, 1);
+        $('.icon-eye').stop( true, false ).fadeTo(100, 1, function(){
+            $active.fadeTo(200, 0);
+        });                
+    });
+    $('a[rel=emhsli]').addClass('slidelink');
+    $('a[rel=emhsli]').attr('title', 'Educational Slideshow');
+    $('a[rel=emhsli]').attr('target', '_blank');
+
+    $('a[rel=quiz-em]').addClass('quizlink');
+    $('a[rel=quiz-em]').attr('title', 'Learning Quiz');
+    $('a[rel=quiz-em]').attr('target', '_blank');
+
+    $('a[rel=emhimg]').addClass('imglink');
+    $('a[rel=emhimg]').attr('title', 'Medical Image');
+    $('a[rel=emhimg]').attr('target', '_blank');
+
+    $('a[rel=dict]').addClass('dictlink');
+    $('a[rel=dict]').attr('title', 'Definition');
+    $('a[rel=dict]').attr('target', '_blank');
+    
+});
+
