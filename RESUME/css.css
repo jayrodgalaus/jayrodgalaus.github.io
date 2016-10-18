@@ -1,0 +1,118 @@
+img{
+	padding-top: 20px;
+	width: 200px;
+	height: 200px;
+}
+
+img:hover{
+	opacity: 0.5;
+	
+}
+
+
+.leftspace{
+	height: 750px;
+	width: 22%;
+	display: inline-table;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+    border:3px solid black;
+	background-color: white;
+	font-size: 15;
+	border-radius: 5px 10px;
+}
+.rightspace{
+	text-align: center;
+    height: 750px;
+    width: 23%;
+	margin-top: 70px;
+	margin-right: 35px;
+	border:3px solid black;
+	float: right;
+	border-radius: 5px 10px;
+	background-color: white;
+}
+.cov{
+	background-color: powderblue;
+	border-left: 5px solid black;
+	font-color: white;
+	font-family: Verdana;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+.boods{
+    border: 1px solid black;
+}
+#center_top{
+    height: 100px;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 13;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: white;
+}
+#center{
+    height: 80%;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 13;
+	margin-top: 5px;
+	background-color: white;
+
+}
+.bobmarly{
+    height: 80%;
+    width: 50%;
+	display: inline-table;
+	margin-left: 5px;
+	margin-top: 15px;
+	text-align: center;
+	background-color: white;
+	border-radius: 10px;
+}
+.bottom{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 13;
+	position: static;
+	display: inline-table;
+	margin-top: 5px;
+	padding-top: 10px;
+}
+
+
+.con{
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: justify;
+	font-size: 12px;
+}
+li{
+	padding-right: 50px;
+	padding-left: 50px;
+	text-align: justify;
+	font-size: 12px;
+}
+a:link{
+    text-decoration: none;
+    color: red;
+}
+a:hover{
+    color: powderblue;
+}
+a:visited{
+    color: black;
+}
+html{
+	background: url("High-Quality-Wood-Wallpaper.jpg");
+	background-size: cover;
+}
+#name{
+	padding-top: 20px;
+	
+}
