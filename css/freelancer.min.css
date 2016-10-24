@@ -14,7 +14,11 @@
     color:#18BC9C;outline:0
 }
 h1,h2,h3,h4,h5,h6{
-  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}hr.star-light,hr.star-primary{
+  font-family:"Comic Sans MS", cursive, sans-serif;
+    text-transform:uppercase;
+    font-weight:700
+}
+hr.star-light,hr.star-primary{
     padding:0;
     border:none;
     border-top:solid 5px;
@@ -32,7 +36,7 @@ h1,h2,h3,h4,h5,h6{
     padding:0 .25em
 }
   .navbar-custom,header .intro-text .name{
-    font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family:"Comic Sans MS", cursive, sans-serif;
     text-transform:uppercase
 }
   hr.star-light{
