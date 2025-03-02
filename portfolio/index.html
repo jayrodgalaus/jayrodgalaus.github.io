@@ -1,0 +1,303 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jayrod Galaus">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Anaheim' rel='stylesheet'>
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="icon" href="../favicon.ico" type="image/ico">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/jquery-3.7.1.min.js"></script>
+    <title>Portfolio></title>
+    <style>
+        #mast{
+            /* background-image: linear-gradient(to bottom, rgb(244, 147, 255)) */
+            background-image: linear-gradient(180deg, #3a648f03, #0e1d2c 85%), radial-gradient(ellipse at top left, #4d92fa80, transparent 50%), radial-gradient(ellipse at top right, #086e8280, transparent 50%), radial-gradient(ellipse at center right, #712cf980, rgb(0 0 0 / 0%) 50%), radial-gradient(ellipse at center left, #51266d80, rgb(0 0 0 / 0%) 50%);
+        }
+        #mainnav *{
+            color: #f8f9fa !important;
+        }
+        #mainnav{
+            min-height: 56px;
+        }
+        #sidescroller{scroll-behavior: smooth;}
+        .sidenav a.active{border-left: 2px solid white; border-top: none; border-bottom: none;}
+        #sidenav a{padding-left: 1rem;}
+    
+        .cert:hover{
+            width: fit-content;
+            transition: all 0.1s;
+            box-shadow: 5px 10px 10px rgba(7,120,201,0.5);
+        }
+        .hidden {
+            opacity: 0;
+            transition: opacity 1s;
+        }
+        .visible {
+            opacity: 1;
+        }
+        .text-container {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .more-link {
+            color: blue;
+            cursor: pointer;
+            margin-left: auto;
+            margin-right: 5%;
+        }
+        .under{
+            background-color: rgba(7,120,201,0.5); 
+            border-radius: 10px 10px 10px 10px;
+            position: absolute;
+            bottom: 20;
+        }
+    </style>
+    <script>
+        var stylesheet = "https://www.testdome.com/content/source/stylesheets/embed.css";
+        link = document.createElement("link");
+        link.href = stylesheet;
+        link.type = "text/css";
+        link.rel = "stylesheet";
+        link.media = "screen,print";
+        document.getElementsByTagName("head")[0].appendChild(link);
+    </script>
+</head>
+<body class="p-0 m-0">   
+    <nav id="mainnav" class="mainnav navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="mainnav container-fluid px-5">
+            <a class="mainnav navbar-brand" href="../home.php">
+                <img class="mainnav " src="../assets/icons/logo.svg" alt="Bootstrap" width="30" height="24">
+            </a>            
+            <button class="mainnav navbar-toggler text-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="mainnav bg-dark offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="mainnav offcanvas-header"> 
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">JG Web</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="mainnav offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container container-lg mt-5 pt-1 pos-rel">
+        <div class="content mt-5 pt-2 pb-5 pos-rel">
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <h1 class="text-dark">Portfolio</h1>
+                <hr class="w-25">
+            </div>
+            <div class="row text-dark md-mt-5">
+                <div class="col-sm-4">
+                    <div class="wrapper-element hidden d-flex align-items-center flex-column pos-rel">
+                        
+                        <div class="pos-rel w-100" style="height: 220px; max-width: 250px;">
+                            <div class="under hidden" ></div>
+                            <div class="under hidden" ></div>
+                            <img src="../projects/tesda/Laptop-tesda-small.png" loading="lazy" alt="TESDA CAR Website Desktop View" class="pos-a start-0" style="max-width: 100%; max-height: 100%">
+                            <img src="../projects/tesda/Mobile-tesda-small.png" loading="lazy" alt="TESDA CAR Website Mobile View" class="pos-a h-75 top-10" style="right: 10%">
+                            
+                        </div>
+                        <h5><a href="https://car.tesda.gov.ph/tesdacar/" class="clearformat" target="_blank"><u>TESDA CAR Website</u></a></h5>
+                        <div class="d-flex flex-column">
+                            <p class="text-container">This is the official TESDA CAR website, initially designed by me to replace their Wix site. The organization's redesign has since altered the original layout. It serves as a centralized platform for posting newsletters and blogs where provincial branches share their activities and achievements, with each province having full control over their design.</p>
+                            <span class="more-link">Read more</span>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wrapper-element hidden d-flex align-items-center flex-column xs-mt-5">
+                        <div class="pos-rel w-100" style="height: 220px; max-width: 250px;">
+                            <div class="under hidden" ></div>
+                            <div class="under hidden" ></div>
+                            <img src="../projects/nda/Laptop-small.png" loading="lazy" alt="NDA Desktop View" class="pos-a start-0" style="max-width: 100%; max-height: 100%">
+                            <img src="../projects/nda/Mobile-small.png" loading="lazy" alt="NDA Mobile View" class="pos-a h-75 top-10" style="right: 10%">
+                        </div>
+                        <h5><a href="#" class="clearformat"><u>LTWD Billing System</u></a></h5>
+                        <div class="d-flex flex-column">
+                            <p class="text-container">LTWD Billing System is La Trinidad Water District's revamped billing solution. It manages customer transactions, consumption tracking, charge computation, report generation, and includes interfaces for both online and on-site payments.</p>
+                            <span class="more-link">Read more</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wrapper-element hidden d-flex align-items-center flex-column xs-mt-5">
+                        <div class="pos-rel w-100" style="height: 220px; max-width: 250px;">
+                            <div class="under hidden" ></div>
+                            <div class="under hidden" ></div>
+                            <img src="../projects/nda/Laptop-small.png" loading="lazy" alt="NDA Desktop View" class="pos-a start-0" style="max-width: 100%; max-height: 100%">
+                            <img src="../projects/nda/Mobile-small.png" loading="lazy" alt="NDA Mobile View" class="pos-a h-75 top-10" style="right: 10%">
+                        </div>
+                        <h5><a href="#" class="clearformat"><u>Cordillera Crafts</u></a></h5>
+                        <div class="d-flex flex-column">
+                            <p class="text-container">Cordillera Crafts is an e-commerce site showcasing and selling Cordilleran artwork. It features artist showpieces and allows viewers to rate and comment on each artist. The site also includes standard e-commerce functionalities such as ordering, rating, and commenting. I designed and developed the initial version before it was handed over to a new developer. The current status of the project is unknown.</p>
+                            <span class="more-link">Read more</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-dark md-mt-5">
+                <div class="col-sm-4">
+                    <div class="wrapper-element hidden d-flex align-items-center flex-column xs-mt-5">
+                        <div class="pos-rel w-100" style="height: 220px; max-width: 250px;">
+                            <div class="under hidden" ></div>
+                            <div class="under hidden" ></div>
+                            <img src="../projects/drrmis/Laptop-clears-small.png" loading="lazy" alt="" class="pos-a start-0" style="max-width: 100%; max-height: 100%">
+                            <img src="../projects/drrmis/Mobile-clears-small.png" loading="lazy" alt="" class="pos-a h-75 top-10" style="right: 10%">
+                        </div>
+                        <h5><a href="https://drrmis.dostcar.ph/" class="clearformat" target="_blank"><u>DRRMIS CLEARS</u></a></h5>
+                        <div class="d-flex flex-column">
+                            <p class="text-container">CLEARS is a module of DRRMIS under DOST CAR, designed to indicate the risks and likelihood of a mountainside or slope collapsing based on factors like angle, material, and weather conditions. It includes an API that integrates with a mobile application used by LGUs and experts to assess slopes and determine their suitability for construction.</p>
+                            <span class="more-link">Read more</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wrapper-element hidden d-flex align-items-center flex-column xs-mt-5">
+                        <div class="pos-rel w-100" style="height: 220px; max-width: 250px;">
+                            <div class="under hidden" ></div>
+                            <div class="under hidden" ></div>
+                            <img src="../projects/animalim/Laptop-animalim-small.png" loading="lazy" alt="" class="pos-a start-0" style="max-width: 100%; max-height: 100%">
+                            <img src="../projects/animalim/Mobile-animalim-small.png" loading="lazy" alt="" class="pos-a h-75 top-10" style="right: 10%">
+                        </div>
+                        <h5><a href="https://animalim.rynerworld.com/" class="clearformat" target="_blank"><u>E-Tag Mo</u></a></h5>
+                        <div class="d-flex flex-column">
+                            <p class="text-container">E-Tag Mo is a comprehensive farm animal inventory and health tracking system. It offers features such as farm management, animal management, health tracking, illness diagnosis, vet assignment, prescriptions, and lab analysis.</p>
+                            <span class="more-link">Read more</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="wrapper-element hidden d-flex align-items-center flex-column xs-mt-5">
+                        <div class="pos-rel w-100 d-flex" style="height: 220px; max-width: 250px;">
+                            <div class="under hidden" ></div>
+                            <div class="under hidden" ></div>
+                            <img src="../projects/bulsawallet/Mobile-bulsa-small.png" loading="lazy" alt="" class="pos-rel h-75 mx-auto">
+                        </div>
+                        <h5><a href="https://github.com/jayrodgalaus/bulsawallet" class="clearformat" target="_blank"><u>Bulsa Wallet</u></a></h5>
+                        <div class="d-flex flex-column">
+                            <p class="text-container">Bulsa Wallet is a finance management mobile application that offers monthly to yearly expense tracking, expense allotment, balance tracking, and detailed management of individual expenses. It also includes other standard financial management features.</p>
+                            <span class="more-link">Read more</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-dark p-5">
+        <div class="container text-light">
+            <div class="row">
+                <div class="col-sm-4" style="border-right: 1px solid white">
+                    <h4>CONTACT US</h4>
+                    <p><i class="fas fa-envelope"></i> jsgalaus@gmail.com | jayrodgalaus@jagalau.online</p>
+                    <p><i class="fas fa-phone"></i> +63 991 8388 677</p>
+                </div>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-4"></div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+<script defer>
+$(document).ready(function() {
+    var baseDelay = 200; // Base delay in milliseconds
+    var staggerDelay = 100; // Incremental delay for staggering
+    var globalIndex = 0; 
+    function checkVisibility() {
+        $('.wrapper-element').each(function() {
+            var $wrapper = $(this);
+            var $text = $wrapper.find('.text-container');
+            var $under = $wrapper.find('.under');
+            var elementTop = $wrapper.offset().top;
+            var windowHeight = $(window).height();
+            var windowScrollTop = $(window).scrollTop();
+
+            if (windowScrollTop + windowHeight > elementTop) {
+                $wrapper.delay(baseDelay).queue(function(next) {
+                    $text.addClass('visible');
+                    $wrapper.addClass('visible');
+                    next();
+                });
+
+                $under.each(function() {
+                    var $this = $(this);
+                    var totalDelay = baseDelay + (globalIndex * staggerDelay);
+
+                    $this.delay(totalDelay).queue(function(next) {
+                        $this.addClass('visible');
+                        next();
+                    });
+
+                    globalIndex++;
+                });
+            } else {
+                $wrapper.removeClass('visible');
+                $text.removeClass('visible');
+                $under.removeClass('visible');
+            }
+        });
+    }
+    function getRandom(min,max){
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    // Initial check on page load
+    checkVisibility();
+
+    // Check on scroll
+    $(window).on('scroll', function() {
+        checkVisibility();
+    });
+    // Toggle read more/less on click
+    $('.more-link').on('click', function() {
+        var $text = $(this).siblings('p');
+        var $link = $(this);
+
+        if ($text.hasClass('text-container')) {
+            $text.removeClass('text-container');
+            $link.text('Read less');
+        } else {
+            $text.addClass('text-container');
+            $link.text('Read more');
+        }
+    });
+    $('.under').each(function() {
+        var randomWidth = getRandom(50, 80)+"%";
+        var randomHeight = getRandom(20, 80)+"%";
+        var randomLeft = getRandom(0, 50)+"%";
+        var randomBot = getRandom(10, 40)+"%";
+        var borderTopLeftRadius = getRandom(30, 60)+"%";
+        var borderTopRightRadius = getRandom(30, 60)+"%";
+        var borderBottomLeftRadius = getRandom(30, 60)+"%";
+        var borderBottomRightRadius = getRandom(30, 60)+"%";
+        var opacity = getRandom(0.3,0.7);
+        $(this).css({
+            'width': randomWidth,
+            'height': randomHeight,
+            'left': randomLeft,
+            'bottom': randomBot,
+            'border-top-left-radius': borderTopLeftRadius,
+            'border-top-right-radius': borderTopRightRadius,
+            'border-bottom-left-radius': borderBottomLeftRadius,
+            'border-bottom-right-radius': borderBottomRightRadius,
+            'background-color': 'rgba(7,120,201,'+opacity+')'
+        });
+    });
+});
+
+
+
+</script>

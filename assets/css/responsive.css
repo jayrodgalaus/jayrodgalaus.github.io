@@ -38,6 +38,7 @@ scrollbar-width: none;  /* Firefox */
 #nav-container{z-index: 999;}
 .top-layer{z-index: 1000;}
 .second-layer{z-index: 998;}
+#waves, #waves2{height: 350px}
 .skill{
     min-height: 50px;
     border-radius: 5px 5px 0 0;
@@ -236,6 +237,7 @@ scrollbar-width: none;  /* Firefox */
     .xs-p-4 {padding: 1.5rem!important;}
     .xs-p-5 {padding: 3rem!important;}
 
+    #waves, #waves2{height: 100px;}
     .skill{
         height: 100px;
         border-radius: 5px 5px 0 0;
@@ -382,6 +384,7 @@ scrollbar-width: none;  /* Firefox */
     .sm-p-4 {padding: 1.5rem!important;}
     .sm-p-5 {padding: 3rem!important;}
 
+    #waves, #waves2{height: 100px;}
     .skill{
         height: 100px;
         border-radius: 5px 5px 0 0;
@@ -528,6 +531,8 @@ scrollbar-width: none;  /* Firefox */
     .md-p-3 {padding: 1rem!important;}
     .md-p-4 {padding: 1.5rem!important;}
     .md-p-5 {padding: 3rem!important;}
+
+    #waves, #waves2{height: 350px}
     .skill{
         min-height: 50px;
         border-radius: 5px 5px 0 0;
@@ -677,10 +682,7 @@ scrollbar-width: none;  /* Firefox */
 }
 /* CUSTOM CSS */
 .clearformat{text-decoration: none;transition: all 0.3s; color: inherit;}
-footer{
-    min-height: 50vh;
-    width: 100vw;
-}
+footer{width: 100vw;}
 #footer-icons{height:60px;position: fixed; bottom: 0; z-index: 1049;width: 100vw; border-top:1px solid rgba(0,0,0,.3)}
 .footer-icon{height: 100%; text-align: center; }
 .footer-icon span{color: rgba(0,0,0,0.55) !important; transition: 0.3s;}
@@ -693,8 +695,7 @@ footer{
 
 html,body{
     overflow-x: hidden;
-    background-color: #0e1d2c;
-    font-family: 'Anaheim'
+    font-family: 'Anaheim';
 }
 html{/*scroll-behavior: smooth; scroll-padding-top: 60px;*/}
 .accordion-button{font-size: 0.9rem !important;}
@@ -704,6 +705,9 @@ html{/*scroll-behavior: smooth; scroll-padding-top: 60px;*/}
 }
 .btn-primary:hover{
     background-color: #2E5F91 !important;
+}
+.anchor-target {
+    scroll-margin-top: 50px; /* Adjust this value as needed */
 }
 
 /* DISPLAY */
@@ -731,6 +735,8 @@ html{/*scroll-behavior: smooth; scroll-padding-top: 60px;*/}
 .bg-gray-3{background-color: #cbd5e1;}
 .bg-theme{background-color: #075A97;}
 .bg-complement{background-color: #D6299A;}
+.bg-theme-gradient{background: linear-gradient(0deg, rgba(14,29,44,1) 0%, rgba(7,90,151,1) 100%) !important; }
+
 /* BORDERS */
 .border-none{border: none;}
 .rounded{border-radius: 5px;}
