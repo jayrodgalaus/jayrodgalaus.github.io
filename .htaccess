@@ -3,9 +3,6 @@ RewriteEngine On
 # Image handling rules to hide /assets/img/ in the src
 RewriteRule ^projects/(.+)\.(png|jpg|jpeg|gif|webp)$ assets/img/projects/$1.$2 [L]
 
-# Route requests to send_email.php
-RewriteRule ^send-email$ /controllers/send_email.php [L]
-
 # Route /img to assets/img
 RewriteRule ^img/(.*)$ assets/img/$1 [L]
 
