@@ -15,7 +15,7 @@
             }
             .cell a{text-decoration: none; color: black;}
             .no-deco{text-decoration: none; color: black;}
-            #pic{border: 1px solid black; width: 150px; height: 150px; background-image: url('../img/P2014771.jpg'); background-size: contain;}
+            #pic{border: 1px solid black; width: 150px; height: 150px; background-image: url('../assets/img/P2014771.jpg'); background-size: contain;}
             table td{ width: 33%; vertical-align: top; padding-right: 10px; border-right: 1px solid gray;}
             @media print {
                 body {
@@ -239,12 +239,12 @@
     </body>
     <script>
         window.addEventListener('load', function() {
-            var isDesktop = window.innerWidth > 768 && !/Mobi|Android|iP(hone|od|ad)/.test(navigator.userAgent);
+            // var isDesktop = window.innerWidth > 768 && !/Mobi|Android|iP(hone|od|ad)/.test(navigator.userAgent);
 
-            if (isDesktop) {
-                window.print();
-                alert('Please make sure to check the "Background graphics" checkbox under More Settings.');
-            }
+            // if (isDesktop) {
+            //     window.print();
+            //     alert('Please make sure to check the "Background graphics" checkbox under More Settings.');
+            // }
         });
 
     </script>
