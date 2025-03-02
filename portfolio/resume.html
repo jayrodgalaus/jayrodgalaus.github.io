@@ -239,12 +239,12 @@
     </body>
     <script>
         window.addEventListener('load', function() {
-            // var isDesktop = window.innerWidth > 768 && !/Mobi|Android|iP(hone|od|ad)/.test(navigator.userAgent);
+            var isDesktop = window.innerWidth > 768 && !/Mobi|Android|iP(hone|od|ad)/.test(navigator.userAgent);
 
-            // if (isDesktop) {
-            //     window.print();
-            //     alert('Please make sure to check the "Background graphics" checkbox under More Settings.');
-            // }
+            if (isDesktop) {
+                window.print();
+                alert('Please make sure to check the "Background graphics" checkbox under More Settings.');
+            }
         });
 
     </script>
